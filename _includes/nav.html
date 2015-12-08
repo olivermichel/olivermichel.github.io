@@ -1,0 +1,14 @@
+<nav class="row large-6 medium-8 small-11">
+	{% assign url = page.url|remove:'index.html' %}
+	<div class="medium show-for-medium float-left">
+		{% for item in site.nav %}
+			<a class="{% if url == item.url %}active{% endif %}" href="{{ item.url }}">{{ item.text }}</a>
+		{% endfor %}
+	</div>
+	<div class="small show-for-small-only float-left">
+		{% for item in site.nav %}
+			<a class="{% if url == item.url %}active{% endif %}" href="{{ item.url }}">{{ item.text }}</a>
+		{% endfor %}
+	</div>
+</nav>
+

@@ -1,0 +1,113 @@
+
+@charset 'utf-8';
+
+@import "foundation/foundation";
+@import "fa/font-awesome";
+
+@include foundation-global-styles;
+@include foundation-grid;
+@include foundation-typography;
+@include foundation-visibility-classes;
+@include foundation-float-classes;
+
+$text-font-size: 10.5pt;
+$text-color: #111;
+$title-color: #555;
+$link-color: #777;
+$link-color-hover: #333;
+
+body {
+	background: url(../img/alaska.jpg);
+
+	// HTML5 semantic tags styles
+
+	header {
+		color:          $title-color;
+		letter-spacing: 1px;
+		padding:        20px 4px 0px 4px;
+		text-transform: uppercase;
+
+		.small { font-size: 14pt; }
+
+		.medium { font-size: 18pt; }
+
+		.signal-icon {
+			color:         #aaa;
+			font-size:     15pt;
+			padding-right: 5px;
+		}
+	}
+
+	nav {
+		border-bottom: 2px solid #888;
+		padding:       0px 4px 8px 4px;
+
+		a {
+			color: #777;
+
+			&:hover, &.active {
+				color: $link-color-hover;
+			}
+		}
+
+		& > .small {
+			font-size:    11pt;
+			a { margin-right: 2px; }
+		}
+
+		& > .medium {
+			font-size:    13pt;
+			a { margin-right: 6px; }
+		}
+	}
+
+	section{
+		padding: 18px 4px;
+
+		p {
+			color:       $text-color;
+			font-size:   $text-font-size;
+			line-height: 1.8;
+			text-align: justify;
+		}
+	}
+
+	footer {
+		margin: 0px 0px 10px 0px;
+
+		.icons {
+			text-align: center;
+
+			a {
+				color:   $link-color;
+				padding: 2px;
+
+				&:hover { color: $link-color-hover }
+			}
+		}
+	}
+
+	// other styles
+
+	.top-stripe {
+		position:   absolute;
+		top:        0px;
+		width:      100%;
+		height:     3px;
+		background: #003366;
+	}
+
+	.addr {
+		color:         #666;
+		font-size:     10pt;
+		margin-bottom: 15px;
+	}
+
+	.portrait {
+		background: #f3f3f3;
+		border:     1px solid #999;
+		margin:     0px 0px 15px 15px;
+		padding:    4px;
+	}
+}
+
