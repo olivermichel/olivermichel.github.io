@@ -15,9 +15,23 @@ $text-color: #111;
 $title-color: #555;
 $link-color: #777;
 $link-color-hover: #333;
+$h1-color: #333;
+$h2-color: #444;
 
 body {
 	background: url(../img/alaska.jpg);
+
+	// general formatting
+
+	h1 {
+		font-size: 16pt;
+		color:     $h1-color;
+	}
+
+	h2 {
+		font-size: 13pt;
+		color:     $h2-color;
+	}
 
 	// HTML5 semantic tags styles
 
