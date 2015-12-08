@@ -21,8 +21,14 @@ nav:
     url: /research/
   - text: publications
     url: /publications/
-  - text: resume
-    url: /resume/
+#  - text: resume
+#    url: /resume/
+
+social:
+  linkedin: "http://www.linkedin.com/in/olivermichel"
+  google_scholar: "http://scholar.google.com/citations?user=flrVM7wAAAAJ&hl=en&oi=ao"
+  github: "http://github.com/olivermichel"
+
 
 baseurl: ""
 url: "https://olivermichel.github.io"
