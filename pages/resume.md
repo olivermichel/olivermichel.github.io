@@ -30,7 +30,7 @@ permalink: /resume/
 * Research Assistant, Next Generation Networks Research Group, Department
 	of Computer Science at the University of Colorado Boulder,
 	Boulder, CO, USA, 2014 - ongoing
-* Undergraduate Research Assistant, Institute for Distributed \&
+* Undergraduate Research Assistant, Institute for Distributed &
 	Multimedia Systems - Chair of Future Communication at the
 	University of Vienna, Austria
 

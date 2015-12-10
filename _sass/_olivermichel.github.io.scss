@@ -65,15 +65,12 @@ body {
 				font-size: 10.5pt;
 				margin-bottom: 10px;
 			}
-
-
 		}
 	}
 
 	strong {
 		font-weight: 500;
 	}
-
 
 	// HTML5 semantic tags styles
 
@@ -83,15 +80,9 @@ body {
 		padding:        20px 4px 0px 4px;
 		text-transform: uppercase;
 
-		.small { font-size: 14pt; }
-
-		.medium { font-size: 18pt; }
-
-		.signal-icon {
-			color:         #aaa;
-			font-size:     15pt;
-			padding-right: 5px;
-		}
+		@include breakpoint(small) { font-size: 14pt; }
+		
+		@include breakpoint(medium) { font-size: 18pt; }
 	}
 
 	nav {
@@ -104,16 +95,16 @@ body {
 			&:hover, &.active {
 				color: $link-color-hover;
 			}
-		}
 
-		& > .small {
-			font-size:    11pt;
-			a { margin-right: 2px; }
-		}
-
-		& > .medium {
-			font-size:    13pt;
-			a { margin-right: 6px; }
+			@include breakpoint(small) { 
+				font-size: 11pt;
+				margin-right: 2px;
+			}
+		
+			@include breakpoint(medium) {
+				font-size: 13pt;
+				margin-right: 6px;
+			}
 		}
 	}
 
