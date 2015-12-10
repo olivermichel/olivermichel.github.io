@@ -4,19 +4,26 @@
 @import "foundation/foundation";
 @import "fa/font-awesome";
 
-@include foundation-global-styles;
-@include foundation-grid;
-@include foundation-typography;
-@include foundation-visibility-classes;
-@include foundation-float-classes;
 
-$text-font-size: 10.5pt;
+
 $text-color: #111;
 $title-color: #555;
 $link-color: #777;
 $link-color-hover: #333;
 $h1-color: #333;
 $h2-color: #444;
+
+$breakpoints: (
+	small: 0px,
+	medium: 640px,
+	large: 1024px,
+);
+
+@include foundation-global-styles;
+@include foundation-grid;
+@include foundation-typography;
+@include foundation-visibility-classes;
+@include foundation-float-classes;
 
 body {
 	background: url(../img/alaska.jpg);
@@ -29,20 +36,45 @@ body {
 	}
 
 	h2 {
-		font-size: 13pt;
 		color:     $h2-color;
+		
+		@include breakpoint(small) { font-size: 12pt; }
+		
+		@include breakpoint(medium) { font-size: 13pt; }
 	}
 
 	ul {
 		list-style-type: square;
+		
+		@include breakpoint(small) { margin-bottom: 10px; }
+		
+		@include breakpoint(medium) { margin-bottom: 30px; }
+		
 		li {
-			line-height: 1.4;
-			margin-bottom: 12px;
+
 			text-align: justify;
-			font-size: 10.5pt;
+
+			@include breakpoint(small) {
+				line-height: 1.3;
+				font-size: 10pt;
+				margin-bottom: 5px;
+			}
+		
+			@include breakpoint(medium) {
+				line-height: 1.4;
+				font-size: 10.5pt;
+				margin-bottom: 10px;
+			}
+
+
 		}
 	}
-	
+
+	strong {
+		font-weight: 500;
+	}
+
+
 	// HTML5 semantic tags styles
 
 	header {
@@ -90,9 +122,18 @@ body {
 
 		p {
 			color:       $text-color;
-			font-size:   $text-font-size;
-			line-height: 1.8;
 			text-align: justify;
+			
+			@include breakpoint(small) {
+				font-size: 10pt;
+				line-height: 1.4;
+			}
+
+			@include breakpoint(medium) {
+				font-size: 10.5pt;
+				line-height: 1.8;
+			}
+
 		}
 	}
 
