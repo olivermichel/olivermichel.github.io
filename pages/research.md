@@ -3,7 +3,7 @@ layout: page
 permalink: /research/
 ---
 
-# Defragmenting the Cloud
+## Defragmenting the Cloud
 Network virtualization is a widely used technique to overcome the
 ossification of networks. Being commonly applied in both datacenter as well
 as wide-area settings, network virtualization enhances network flexibility
@@ -23,7 +23,7 @@ work is based on the work on Live Migration of Ensembles (LIME) as
 presented by our group at HotNets-XI and SoCC '14.
 
 
-# Policy Routing using Process-Level Identifiers
+## Policy Routing using Process-Level Identifiers
 Enforcing and routing based on network-wide policies remains a crucial
 challenge in the operation of large-scale enterprise and datacenter
 networks. As current dataplane devices solely rely on layer 2 -- layer 4
@@ -40,7 +40,7 @@ to make forwarding decisions within the network based on fine-grained
 process-level identifiers that are traditionally only available within a
 host's operating system.
 
-# Network Abstractions in the Application Layer
+## Network Abstractions in the Application Layer
 Many of todays applications (in particular data processing applications)
 use intra-application networks to connect computing elements. By making
 intra-application networks part of the network itself, we simplify
@@ -53,7 +53,7 @@ an entire path. For these networks we are inspecting a new interface to the
 network based on intra-application channels told to the network rather than
 addresses.
 
-# SDN Controller Architecture
+## SDN Controller Architecture
 While there is a broad variety of SDN controllers (both proprietary and
 open source) available, we investigate the commonalities between SDN
 controllers (often referred to as the network operating system) and
@@ -66,7 +66,7 @@ systems already provide (such as access control and process management). In
 this area I am particularly interested in how such independent applications
 are composed and are granted access to the network configuration.
 
-# Low Latency Networking
+## Low Latency Networking
 Latency is an extremely important quality metric of computer networks.
 While network hardware can be designed and provisioned to provide low
 latency on average, heavy tails are pervasive in latency distributions of
