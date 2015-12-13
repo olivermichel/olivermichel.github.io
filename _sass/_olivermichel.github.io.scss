@@ -49,6 +49,11 @@ body {
 		@include breakpoint(small) { margin-bottom: 10px; }
 		
 		@include breakpoint(medium) { margin-bottom: 30px; }
+
+
+
+
+
 		
 		li {
 
@@ -65,6 +70,29 @@ body {
 				font-size: 10.5pt;
 				margin-bottom: 10px;
 			}
+		
+			a {
+				color: #003366;
+			
+				&::before {
+					content: "[";
+					color: #555;
+				}
+
+				&::after {
+					content: "]";
+					color: #555;
+				}
+			}
+		}
+	}
+
+	a {
+		color: #003366;
+
+		&:hover {
+			color: #003366;
+			text-decoration: underline;
 		}
 	}
 
