@@ -1,7 +1,10 @@
 ---
+title: Resume
 layout: page
 permalink: /resume/
 ---
+
+A full, less condensed version of this can be downloaded by clicking [here](../doc/omichel-cv.pdf).
 
 ## Education
 
@@ -17,13 +20,6 @@ permalink: /resume/
 * *Advanced EMT*, School of the German Red Cross, Düsseldorf, Germany,
 	2008-2009
 * *Abitur*, Stifisches Gymnasium, Düren, Germany, 1999-2008
-
-## Work Experience
-
-* Founder, :editum.internet solutions GbR, Hürtgenwald, Germany,
-	2003 - ongoing
-* iOS Software-Developer, Tupalo.com Internet-Services GmbH, Vienna, 
-	Austria, 2009 - 2011
 
 ## Research Experience
 
@@ -44,6 +40,34 @@ permalink: /resume/
 	Technologies), Professor Kurt Tutschku, University of Vienna, Austria,
 	Mar. 2012 - Jun. 2012
 
+## Work Experience
+
+* iOS Software-Developer, Tupalo.com Internet-Services GmbH, Vienna,
+	Austria, 2009 - 2011
+* Founder, :editum.internet solutions GbR, Hürtgenwald, Germany,
+	2003 - ongoing
+
+## Presentations
+
+* Oliver Michel. "P4: Protocol-Independent Packet Processors". Guest Lecture
+	ECEN5013 University of Colorado Boulder, CO, USA, September 2015.
+	[slides](../doc/p4.pdf)
+* Oliver Michel, Matthew Monaco, Eric Keller. "Applying Operating System
+	Principles to SDN Controller Design". Invited Talk, University of
+	Illinois at Urbana-Champaign, Champaign, IL, USA, Apr. 2014
+	[slides](../doc/talk-uiuc2014.pdf)
+* Oliver Michel. "More is Less - Reducing Latency via Redundancy". Invited
+	Talk, University of Colorado Boulder, Boulder, CO, USA, Apr. 2013
+	[slides](../doc/moreisless-colorado.pdf)
+* Oliver Michel. "Adaptive Source Routing and Speculative Execution for
+	Multi-homed Wireless Clients in Preclinical Medical Care". Bachelor
+	Thesis and public presentation at the University of Vienna, Austria,
+	Nov. 2012 [full thesis](../doc/bachelor-thesis.pdf) 
+	[slides](../doc/bachelor-thesis-presentation.pdf)
+* Ashish Vulimiri, Oliver Michel, P. Brighten Godfrey, and Scott Shenker.
+	"More is Less - Reducing Latency via Redundancy". Talk at the 15th
+	GENI Engineering Conference (GEC15), Houston, TX, USA, Oct. 2012
+
 ## Internships
 
 Visiting Scholar, Department of Computer Science, University of Colorado at
@@ -59,23 +83,6 @@ Medical Center of the RWTH Aachen University, Department of plastic-, hand- and
 burn-surgery, burn/trauma center, Aachen, Germany (2008), Spymac Network
 Germany GmbH, Düsseldorf, Germany (2005), Clanotopia IT-Service Ltd., Essen,
 Germany (2004)
-
-## Presentations
-* Oliver Michel, Matthew Monaco, Eric Keller. "Applying Operating System
-	Principles to SDN Controller Design". Invited Talk, University of
-	Illinois at Urbana-Champaign, Champaign, IL, USA, Apr. 2014
-
-* Oliver Michel. "More is Less - Reducing Latency via Redundancy". Invited
-	Talk, University of Colorado Boulder, Boulder, CO, USA, Apr. 2013
-
-* Oliver Michel. "Adaptive Source Routing and Speculative Execution for
-	Multi-homed Wireless Clients in Preclinical Medical Care". Bachelor
-	Thesis and public presentation at the University of Vienna, Austria,
-	Nov. 2012
-
-* Ashish Vulimiri, Oliver Michel, P. Brighten Godfrey, and Scott Shenker.
-	"More is Less - Reducing Latency via Redundancy". Talk at the 15th
-	GENI Engineering Conference (GEC15), Houston, TX, USA, Oct. 2012
 
 ## Graduate Coursework
 
