@@ -29,7 +29,7 @@ challenge in the operation of large-scale enterprise and datacenter
 networks. As current dataplane devices solely rely on layer 2 -- layer 4
 identifiers to make forwarding decisions, there is no notion of the exact
 origin of a packet in terms of the sending user or process. In this project
-we ask the question: \emph{Can we go beyond the MAC?} That is, can
+we ask the question: *Can we go beyond the MAC?* That is, can
 fine-grained process-level information like user ids, process ids or a
 cryptographic hash of the sending executable be semantically used to make
 forwarding decisions within the network? We designed a system architecture
