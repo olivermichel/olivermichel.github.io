@@ -9,11 +9,11 @@ permalink: /publications/
 * Matthew Monaco, Oliver Michel, and Eric Keller. "**Applying Operating System
 	Principles to SDN Controller Design**". In *Proceedings of the 12th ACM
 	Workshop on Hot Topics in Networks* (HotNets-XII), College Park, MD, USA,
-	2013 [full paper](doc/yanc-hotnets.pdf) [bibtex](doc/yanc-hotnets.bib)
+	2013 [full paper](../doc/yanc-hotnets.pdf) [bibtex](../doc/yanc-hotnets.bib)
 * Ashish Vulimiri, Oliver Michel, P. Brighten Godfrey, and Scott Shenker. "**More
 	is Less: Reducing Latency via Redundancy**". In *Proceedings of the 11th ACM
 	Workshop on Hot Topics in Networks* (HotNets-XI), Redmond, WA, USA, 2012
-	[full paper](../doc/yanc-hotnets.pdf) [bibtex](doc/yanc-hotnets.bib)
+	[full paper](../doc/yanc-hotnets.pdf) [bibtex](../doc/yanc-hotnets.bib)
 
 ## Technical Reports
 
@@ -42,7 +42,7 @@ permalink: /publications/
 	Implementation (NSDI '13)*, Chicago, IL, USA, 2013 [poster](../doc/nsdi13-poster.pdf)
 	[extended abstract](../doc/nsdi13-proposal.pdf)
 	
-* Oliver Michel, Ashish Vulimiri, and P. Brighten Godfrey.  "**Adaptive Source
+* Oliver Michel, Ashish Vulimiri, and P. Brighten Godfrey. "**Adaptive Source
 	Routing**". *Poster at the 13th GENI Engineering Conference* (GEC13), Los
 	Angeles, CA, USA, 2012 [poster](../doc/gec13-poster.pdf)
 
