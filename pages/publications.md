@@ -8,7 +8,8 @@ permalink: /publications/
 
 * Oliver Michel, Eric Keller. "**Policy Routing using Process-Level Identifiers**".
 	In *Proceedings of the 3rd IEEE International Symposium on Software Defined Systems*
-	(SDS-2016), Berlin, Germany, 2016
+	(SDS-2016), Berlin, Germany, 2016 [full paper](../doc/prpl-sds16.pdf)
+	[bibtex](../prpl-sds16.bib)
 
 * Matthew Monaco, Oliver Michel, and Eric Keller. "**Applying Operating System
 	Principles to SDN Controller Design**". In *Proceedings of the 12th ACM
