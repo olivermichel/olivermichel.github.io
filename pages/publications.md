@@ -28,6 +28,10 @@ permalink: /publications/
 
 ## Posters
 
+* Oliver Michel, Eric Keller. "**Defragmenting the Cloud**". Poster at the *13th
+	USENIX Symposium on Networked Systems Design and Implementation* (NSDI '16),
+	Santa Clara, CA, USA, 2016 [extended abstract](../doc/nsdi16-abstract.pdf)
+
 * Oliver Michel, Michael Coughlin, Eric Keller. "**Extending the
 	Software-defined Network Boundary**". Poster at the *ACM SIGCOMM 2014
 	Conference*, Chicago, IL, USA, 2014 [poster](../doc/sigcomm14-poster.pdf)
