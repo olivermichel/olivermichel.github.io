@@ -4,8 +4,6 @@
 @import "foundation/foundation";
 @import "fa/font-awesome";
 
-
-
 $text-color: #111;
 $title-color: #555;
 $link-color: #777;
@@ -98,6 +96,12 @@ body {
 	// HTML5 semantic tags styles
 
 	header {
+		
+		@include grid-row;
+		@include breakpoint(small)  { @include grid-col-size(11); }
+		@include breakpoint(medium) { @include grid-col-size(8);  }
+		@include breakpoint(large)  { @include grid-col-size(6);  }
+
 		color:          $title-color;
 		letter-spacing: 1px;
 		padding:        20px 4px 0px 4px;
@@ -109,6 +113,12 @@ body {
 	}
 
 	nav {
+	
+		@include grid-row;
+		@include breakpoint(small)  { @include grid-col-size(11); }
+		@include breakpoint(medium) { @include grid-col-size(8);  }
+		@include breakpoint(large)  { @include grid-col-size(6);  }
+		
 		border-bottom: 2px solid #888;
 		padding:       0px 4px 8px 4px;
 
@@ -132,7 +142,13 @@ body {
 		}
 	}
 
-	section{
+	main {
+		
+		@include grid-row;
+		@include breakpoint(small)  { @include grid-col-size(11); }
+		@include breakpoint(medium) { @include grid-col-size(8);  }
+		@include breakpoint(large)  { @include grid-col-size(6);  }
+		
 		padding: 18px 4px;
 
 		p {
@@ -153,6 +169,12 @@ body {
 	}
 
 	footer {
+		
+		@include grid-row;
+		@include breakpoint(small)  { @include grid-col-pos(0.5); @include grid-col-size(11); }
+		@include breakpoint(medium) { @include grid-col-pos(2); @include grid-col-size(8);  }
+		@include breakpoint(large)  { @include grid-col-pos(3); @include grid-col-size(6);  }
+
 		margin: 0px 0px 10px 0px;
 
 		.icons {
@@ -190,6 +212,10 @@ body {
 	}
 
 	.portrait {
+
+		@include show-for(medium);
+		
+		float: right;
 		background: #f3f3f3;
 		border:     1px solid #999;
 		margin:     0px 0px 15px 15px;
