@@ -9,8 +9,7 @@ permalink: /publications/
 * Oliver Michel, Eric Keller. "**Policy Routing using Process-Level Identifiers**".
 	In *Proceedings of the 3rd IEEE International Symposium on Software Defined Systems*
 	(SDS-2016), Berlin, Germany, 2016 [full paper](../doc/prpl-sds16.pdf)
-	[bibtex](../prpl-sds16.bib)
-
+	[slides](../doc/prpl-sds16-slides.pdf) [bibtex](../doc/prpl-sds16.bib)
 * Matthew Monaco, Oliver Michel, and Eric Keller. "**Applying Operating System
 	Principles to SDN Controller Design**". In *Proceedings of the 12th ACM
 	Workshop on Hot Topics in Networks* (HotNets-XII), College Park, MD, USA,
@@ -44,13 +43,11 @@ permalink: /publications/
 * Oliver Michel, Matthew Monaco, Eric Keller. "**Applying Operating System Principles to SDN Controller Design**".
 	Poster and Demo at the *18th GENI Engineering Conference* (GEC18), New York,
 	NY, USA, 2013 [poster](../doc/yanc-poster.pdf)
-	
 * Oliver Michel, David Stezenbach, Kurt Tutschku. "**Multihoming and Adaptive
 	Multipath Transmission using off-the-shelf Components in Preclinical Medical
 	Care**". Poster at the *10th USENIX Symposium on Networked Systems Design and
 	Implementation (NSDI '13)*, Chicago, IL, USA, 2013 [poster](../doc/nsdi13-poster.pdf)
 	[extended abstract](../doc/nsdi13-proposal.pdf)
-	
 * Oliver Michel, Ashish Vulimiri, and P. Brighten Godfrey. "**Adaptive Source
 	Routing**". *Poster at the 13th GENI Engineering Conference* (GEC13), Los
 	Angeles, CA, USA, 2012 [poster](../doc/gec13-poster.pdf)
