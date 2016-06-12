@@ -4,7 +4,8 @@ layout: page
 permalink: /resume/
 ---
 
-A full, less condensed version of this can be downloaded by clicking [here](../doc/omichel-cv.pdf).
+A full, less condensed version of this can be downloaded by
+clicking [here](../doc/omichel-cv.pdf).
 
 ## Education
 
@@ -62,7 +63,7 @@ A full, less condensed version of this can be downloaded by clicking [here](../d
 * Oliver Michel. "Adaptive Source Routing and Speculative Execution for
 	Multi-homed Wireless Clients in Preclinical Medical Care". Bachelor
 	Thesis and public presentation at the University of Vienna, Austria,
-	Nov. 2012 [full thesis](../doc/bachelor-thesis.pdf) 
+	Nov. 2012 [full thesis](../doc/bachelor-thesis.pdf)
 	[slides](../doc/bachelor-thesis-presentation.pdf)
 * Ashish Vulimiri, Oliver Michel, P. Brighten Godfrey, and Scott Shenker.
 	"More is Less - Reducing Latency via Redundancy". Talk at the 15th
@@ -70,9 +71,14 @@ A full, less condensed version of this can be downloaded by clicking [here](../d
 
 ## Internships
 
-Visiting Scholar, Department of Computer Science, University of Colorado at
-Boulder, CO, USA (2013), Undergraduate Research Intern, Information Trust
-Institute, University of Illinois at Urbana-Champaign, IL, USA (2012), Visiting
+* WAN Automation Software Engineer, Juniper Networks OpenLab, Bridgewater, NJ,
+USA (Jun. - Aug. 2016), supervised by Didier Bousser
+
+* Undergraduate Research Intern, Information Trust Institute, University of
+Illinois at Urbana-Champaign, IL, USA (Jun. - Aug. 2012), supervised by Brighten Godfrey
+
+* *others*: Visiting Scholar, Department of Computer Science, University of Colorado at
+Boulder, CO, USA (2013), Visiting
 Scholar, Department of Computer Science, University of Illinois at
 Urbana-Champaign, IL, USA (2012), Medical Center of the Albert-Ludwig
 University Freiburg, Department for heart and vascular surgery, transplant
@@ -92,4 +98,3 @@ Design and Analysis of Algorithms (CSCI5454), Natural Language Processing
 Computer and Networked System Security (CSCI7000/12), Research Topics in
 Datacenter Scale Computing (CSCI7000/14), Advanced Computer Networks (CS538 -
 UIUC)
-
