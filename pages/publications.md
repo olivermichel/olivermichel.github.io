@@ -6,6 +6,9 @@ permalink: /publications/
 
 ## Conference Proceedings
 
+* Oliver Michel, Eric Keller. "**SDN in Wide-Area Networks: A Survey**".
+	In *Proceedings of the 4th IEEE International Conference on Software Defined Systems* (SDS-2017),
+	Valencia, Spain, 2017
 * Oliver Michel, Eric Keller. "**Policy Routing using Process-Level Identifiers**".
 	In *Proceedings of the 3rd IEEE International Symposium on Software Defined Systems*
 	(SDS-2016), Berlin, Germany, 2016 [full paper](../doc/prpl-sds16.pdf)
@@ -19,14 +22,14 @@ permalink: /publications/
 * Ashish Vulimiri, Oliver Michel, P. Brighten Godfrey, and Scott Shenker. "**More
 	is Less: Reducing Latency via Redundancy**". In *Proceedings of the 11th ACM
 	Workshop on Hot Topics in Networks* (HotNets-XI), Redmond, WA, USA, 2012
-	[full paper](../doc/yanc-hotnets.pdf) [acm dl](http://dl.acm.org/citation.cfm?id=2390234)
+	[full paper](../doc/hotnets12.pdf) [acm dl](http://dl.acm.org/citation.cfm?id=2390234)
 	[bibtex](../doc/hotnets12.bib)
 
 ## Technical Reports
 
-* Matthew Monaco, Oliver Michel, Alex Tsankov, and Eric Keller. "**Yanc - Yet
-	Another Network Controller**". *University of Colorado Technical Report*,
-	Boulder, CO, 2015
+* Matthew Monaco, Oliver Michel, and Eric Keller. "**Applying Operating System Principles to SDN
+	Controller Design**". *University of Colorado Technical Report*, Boulder, CO, 2015
+	[full paper](../doc/yanc-hotnets.pdf) [arXiv](https://arxiv.org/abs/1510.05063)
 
 ## Posters
 
