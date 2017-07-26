@@ -9,7 +9,8 @@ permalink: /publications/
 * Oliver Michel, Eric Keller. "**SDN in Wide-Area Networks: A Survey**".
 	In *Proceedings of the 4th IEEE International Conference on Software Defined Systems* (SDS-2017),
 	Valencia, Spain, 2017 [full paper](../doc/sdwan-sds17.pdf)
-	[slides](../doc/sdwan-sds17-slides.pdf)
+	[slides](../doc/sdwan-sds17-slides.pdf) [ieee xplore](http://ieeexplore.ieee.org/document/7939138/)
+	[bibtex](../doc/sdwan-sds17.bib)
 * Oliver Michel, Eric Keller. "**Policy Routing using Process-Level Identifiers**".
 	In *Proceedings of the 3rd IEEE International Symposium on Software Defined Systems*
 	(SDS-2016), Berlin, Germany, 2016 [full paper](../doc/prpl-sds16.pdf)
