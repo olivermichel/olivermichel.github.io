@@ -49,7 +49,12 @@ clicking [here](../doc/omichel-cv.pdf).
 	2003 - ongoing
 
 ## Presentations
-
+* Oliver Michel. "Hardware-accelerated Lossless Flow Monitoring". Guest Lecture, ECEN5008
+	University of COlorado Boulder, CO, USA, October 2017.
+* Oliver Michel, Eric Keller, Fernando Ramos. "Network Defragmentation in
+	Virtualized Data Centers". Invited Talk, University of Lisbon, Portugal, September 2017.
+* Oliver Michel. "SDN in Wide-Area Networks". Guest Lecture
+	ECEN5013 University of Colorado Boulder, CO, USA, September 2016.
 * Oliver Michel. "P4: Protocol-Independent Packet Processors". Guest Lecture
 	ECEN5013 University of Colorado Boulder, CO, USA, September 2015.
 	[slides](../doc/p4.pdf)
