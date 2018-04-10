@@ -6,6 +6,10 @@ permalink: /publications/
 
 ## Conference Proceedings
 
+* Greg Cusack, Oliver Michel, Eric Keller. "**Machine Learning-Based Detection of Ransomware using
+  SDN**". In *Proceedings of the ACM International Workshop on Security in Software Defined
+	Networks & Network Function Virtualization 2018*, Tempe, AZ, USA,
+	2018 [full paper](../doc/ml-ransomware-sdnnfvsec18.pdf) [acm dl](https://dl.acm.org/citation.cfm?id=3180467) [bibtex](../doc/ml-ransomware-sdnnfvsec18.bib)
 * Oliver Michel, Eric Keller. "**SDN in Wide-Area Networks: A Survey**".
 	In *Proceedings of the 4th IEEE International Conference on Software Defined Systems* (SDS-2017),
 	Valencia, Spain, 2017 [full paper](../doc/sdwan-sds17.pdf)
@@ -35,6 +39,8 @@ permalink: /publications/
 
 ## Posters
 
+* Oliver Michel, John Sonchack, Adam J. Aviv, Eric Keller. "**Scalable, Hardware-Accelerated
+ 	Network Analytics**". Poster at the *15th USENIX USENIX Symposium on Networked Systems Design and Implementation* (NSDI '18), Renton, WA, USA, 2018 [poster](../doc/nsdi18-poster.pdf) [extended abstract](../doc/nsdi18-abstract.pdf)
 * Oliver Michel, Eric Keller. "**Defragmenting the Cloud**". Poster at the *13th
 	USENIX Symposium on Networked Systems Design and Implementation* (NSDI '16),
 	Santa Clara, CA, USA, 2016 [poster](../doc/nsdi16-poster.pdf)
