@@ -40,7 +40,12 @@ permalink: /publications/
 ## Posters
 
 * Oliver Michel, John Sonchack, Adam J. Aviv, Eric Keller. "**Scalable, Hardware-Accelerated
- 	Network Analytics**". Poster at the *15th USENIX USENIX Symposium on Networked Systems Design and Implementation* (NSDI '18), Renton, WA, USA, 2018 [poster](../doc/nsdi18-poster.pdf) [extended abstract](../doc/nsdi18-abstract.pdf)
+ 	Network Analytics**". Poster at the *15th USENIX USENIX Symposium on Networked Systems Design and
+  Implementation* (NSDI '18), Renton, WA, USA, 2018 [poster](../doc/nsdi18-poster.pdf)
+  [extended abstract](../doc/nsdi18-abstract.pdf)
+* Greg Cusack, Oliver Michel, Eric Keller. "**Machine Learning-Based Fingerprinting of Network
+  Traffic using Programmable Forwarding Engines**"., *NDSS Security Symposium 2018*, San Diego, CA,
+  USA, 2018 -- **best poster award** [poster](../doc/ndss18-poster.pdf)
 * Oliver Michel, Eric Keller. "**Defragmenting the Cloud**". Poster at the *13th
 	USENIX Symposium on Networked Systems Design and Implementation* (NSDI '16),
 	Santa Clara, CA, USA, 2016 [poster](../doc/nsdi16-poster.pdf)
