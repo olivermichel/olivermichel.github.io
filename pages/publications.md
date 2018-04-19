@@ -6,6 +6,12 @@ permalink: /publications/
 
 ## Conference Proceedings
 
+* Oliver Michel, John Sonchack, Eric Keller, Jonathan M. Smith. "**Packet-Level Analytics in
+  Software without Compromises**". To appear in *10th USENIX Workshop on Hot Topics in Cloud
+  Computing (HotCloud '18)*, Boston, MA, USA, 2018
+* John Sonchack, Oliver Michel, Adam J. Aviv, Eric Keller, Jonathan M. Smith. "**Scaling Hardware
+  Accelerated Monitoring to Concurrent and Dynamic Queries With \*Flow**". To appear in *2018 USENIX
+  Annual Technical Conference (ATC '18)*, Boston, MA, USA, 2018
 * Greg Cusack, Oliver Michel, Eric Keller. "**Machine Learning-Based Detection of Ransomware using
   SDN**". In *Proceedings of the ACM International Workshop on Security in Software Defined
 	Networks & Network Function Virtualization 2018*, Tempe, AZ, USA,
