@@ -10,7 +10,7 @@ clicking [here](../doc/omichel-cv.pdf).
 ## Education
 
 * Doctoral Student, Computer Science, University of Colorado Boulder,
-	2013-ongoing
+	2013-2019 (expected)
 * *Master of Science (M.S.)*, Computer Science, University of Colorado
 	Boulder, 2013-2015
 * *Bachelor of Science (B.Sc.)*, Computer Science, University of Vienna,
@@ -43,12 +43,13 @@ clicking [here](../doc/omichel-cv.pdf).
 
 ## Work Experience
 
-* iOS Software-Developer, Tupalo.com Internet-Services GmbH, Vienna,
+* iOS Software Engineer, Tupalo.com Internet-Services GmbH, Vienna,
 	Austria, 2009 - 2011
 * Founder, :editum.internet solutions GbR, Hürtgenwald, Germany,
 	2003 - ongoing
 
 ## Presentations
+* Oliver Michel. "Cloud-Scale Packet-Level Telemetry and Analytics". Invited Talk, North American Network Operators Group General Meeting 73, Denver, CO, USA, June 2018.
 * Oliver Michel. "Hardware-accelerated Lossless Flow Monitoring". Guest Lecture, ECEN5008
 	University of COlorado Boulder, CO, USA, October 2017.
 * Oliver Michel, Eric Keller, Fernando Ramos. "Network Defragmentation in
