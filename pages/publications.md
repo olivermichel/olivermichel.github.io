@@ -6,6 +6,7 @@ permalink: /publications/
 
 ## Conference Proceedings
 
+* Oliver Michel, John Sonchack, Eric Keller, Jonathan M. Smith. "**PIQ: Persistent Interactive Queries for Network Analytics**". In *Proceedings of the ACM International Workshop on Security in Software Defined Networks & Network Function Virtualization (SDN-NFV Sec 2019)*, Dallas, TX, USA, 2019
 * Oliver Michel, John Sonchack, Eric Keller, Jonathan M. Smith. "**Packet-Level Analytics in
   Software without Compromises**". In *Proceedings of 10th USENIX Workshop on Hot Topics in Cloud
   Computing (HotCloud '18)*, Boston, MA, USA, 2018 [full paper](../doc/jetstream-hotcloud18.pdf) [slides](../doc/jetstream-hotcloud18-slides.pdf)
