@@ -6,12 +6,12 @@ permalink: /publications/
 
 ## Conference Proceedings
 
-* Oliver Michel, John Sonchack, Eric Keller, Jonathan M. Smith. "**PIQ: Persistent Interactive Queries for Network Analytics**". In *Proceedings of the ACM International Workshop on Security in Software Defined Networks & Network Function Virtualization (SDN-NFV Sec 2019)*, Dallas, TX, USA, 2019
+* Oliver Michel, John Sonchack, Eric Keller, Jonathan M. Smith. "**PIQ: Persistent Interactive Queries for Network Analytics**". In *Proceedings of the ACM International Workshop on Security in Software Defined Networks & Network Function Virtualization (SDN-NFV Sec 2019)*, Dallas, TX, USA, 2019 [full paper](../doc/piq-sdnnfvsec19.pdf)
 * Oliver Michel, John Sonchack, Eric Keller, Jonathan M. Smith. "**Packet-Level Analytics in
   Software without Compromises**". In *Proceedings of 10th USENIX Workshop on Hot Topics in Cloud
-  Computing (HotCloud '18)*, Boston, MA, USA, 2018 [full paper](../doc/jetstream-hotcloud18.pdf) [slides](../doc/jetstream-hotcloud18-slides.pdf)
+  Computing (HotCloud '18)*, Boston, MA, USA, 2018 [full paper](../doc/jetstream-hotcloud18.pdf) [slides](../doc/jetstream-hotcloud18-slides.pdf) [usenix](https://www.usenix.org/conference/hotcloud18/presentation/michel) [bibtex](../doc/jetstream-hotcloud18.bib)
 * John Sonchack, Oliver Michel, Adam J. Aviv, Eric Keller, Jonathan M. Smith. "**Scaling Hardware
-  Accelerated Monitoring to Concurrent and Dynamic Queries With \*Flow**". In *Proceedings of the 2018 USENIX Annual Technical Conference (ATC '18)*, Boston, MA, USA, 2018 [full paper](../doc/starflow-atc18.pdf)
+  Accelerated Monitoring to Concurrent and Dynamic Queries With \*Flow**". In *Proceedings of the 2018 USENIX Annual Technical Conference (ATC '18)*, Boston, MA, USA, 2018 [full paper](../doc/starflow-atc18.pdf) [usenix](https://www.usenix.org/conference/atc18/presentation/sonchack) [bibtex](../doc/starflow-atc18.bib)
 * Greg Cusack, Oliver Michel, Eric Keller. "**Machine Learning-Based Detection of Ransomware using
   SDN**". In *Proceedings of the ACM International Workshop on Security in Software Defined
 	Networks & Network Function Virtualization 2018*, Tempe, AZ, USA,

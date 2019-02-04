@@ -49,9 +49,9 @@ clicking [here](../doc/omichel-cv.pdf).
 	2003 - ongoing
 
 ## Presentations
-* Oliver Michel. "Cloud-Scale Packet-Level Telemetry and Analytics". Invited Talk, North American Network Operators Group General Meeting 73, Denver, CO, USA, June 2018.
+* Oliver Michel. "Cloud-Scale Packet-Level Telemetry and Analytics". Invited Talk, North American Network Operators Group General Meeting 73, Denver, CO, USA, June 2018. [slides](../doc/nanog73-final.pdf) [video](https://www.youtube.com/watch?v=hwdaCfjGxdI)
 * Oliver Michel. "Hardware-accelerated Lossless Flow Monitoring". Guest Lecture, ECEN5008
-	University of COlorado Boulder, CO, USA, October 2017.
+	University of Colorado Boulder, CO, USA, October 2017.
 * Oliver Michel, Eric Keller, Fernando Ramos. "Network Defragmentation in
 	Virtualized Data Centers". Invited Talk, University of Lisbon, Portugal, September 2017.
 * Oliver Michel. "SDN in Wide-Area Networks". Guest Lecture
