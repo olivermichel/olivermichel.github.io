@@ -4,37 +4,69 @@ layout: page
 permalink: /publications/
 ---
 
+## Dissertation
+
+* Oliver Michel. "**Packet-Level Network Telemetry and Analytics**". Doctoral Dissertation,
+	University of Colorado Boulder, 2019
+	[full document](../doc/dissertation.pdf)
+
 ## Conference Proceedings
 
-* Oliver Michel, John Sonchack, Eric Keller, Jonathan M. Smith. "**PIQ: Persistent Interactive Queries for Network Analytics**". In *Proceedings of the ACM International Workshop on Security in Software Defined Networks & Network Function Virtualization (SDN-NFV Sec 2019)*, Dallas, TX, USA, 2019 [full paper](../doc/piq-sdnnfvsec19.pdf)
+* Oliver Michel, Eric Keller, Fernando M.V. Ramos. "**Network Defragmentation in Virtualized Data
+	Centers**". In *Proceedings of the 6th IEEE International Conference on Software Defined
+	Systems* (SDS-2019)*, Rome, Italy, 2019
+	[full paper](../doc/dcdefrag-sds19.pdf)
+* Oliver Michel, John Sonchack, Eric Keller, Jonathan M. Smith. "**PIQ: Persistent Interactive
+	Queries for Network Analytics**". In *Proceedings of the ACM International Workshop on Security
+	in Software Defined Networks & Network Function Virtualization (SDN-NFV Sec 2019)*, Dallas, TX,
+	USA, 2019
+	[full paper](../doc/piq-sdnnfvsec19.pdf)
+	[slides](../doc/piq-sdnnfvsec19-slides.pdf)
 * Oliver Michel, John Sonchack, Eric Keller, Jonathan M. Smith. "**Packet-Level Analytics in
-  Software without Compromises**". In *Proceedings of 10th USENIX Workshop on Hot Topics in Cloud
-  Computing (HotCloud '18)*, Boston, MA, USA, 2018 [full paper](../doc/jetstream-hotcloud18.pdf) [slides](../doc/jetstream-hotcloud18-slides.pdf) [usenix](https://www.usenix.org/conference/hotcloud18/presentation/michel) [bibtex](../doc/jetstream-hotcloud18.bib)
+	Software without Compromises**". In *Proceedings of 10th USENIX Workshop on Hot Topics in Cloud
+	Computing (HotCloud '18)*, Boston, MA, USA, 2018
+	[full paper](../doc/jetstream-hotcloud18.pdf)
+	[slides](../doc/jetstream-hotcloud18-slides.pdf)
+	[usenix](https://www.usenix.org/conference/hotcloud18/presentation/michel)
+	[bibtex](../doc/jetstream-hotcloud18.bib)
 * John Sonchack, Oliver Michel, Adam J. Aviv, Eric Keller, Jonathan M. Smith. "**Scaling Hardware
-  Accelerated Monitoring to Concurrent and Dynamic Queries With \*Flow**". In *Proceedings of the 2018 USENIX Annual Technical Conference (ATC '18)*, Boston, MA, USA, 2018 [full paper](../doc/starflow-atc18.pdf) [usenix](https://www.usenix.org/conference/atc18/presentation/sonchack) [bibtex](../doc/starflow-atc18.bib)
+	Accelerated Monitoring to Concurrent and Dynamic Queries With \*Flow**". In *Proceedings of the
+	2018 USENIX Annual Technical Conference (ATC '18)*, Boston, MA, USA, 2018
+	[full paper](../doc/starflow-atc18.pdf) 
+	[usenix](https://www.usenix.org/conference/atc18/presentation/sonchack)
+	[bibtex](../doc/starflow-atc18.bib)
 * Greg Cusack, Oliver Michel, Eric Keller. "**Machine Learning-Based Detection of Ransomware using
-  SDN**". In *Proceedings of the ACM International Workshop on Security in Software Defined
+  	SDN**". In *Proceedings of the ACM International Workshop on Security in Software Defined
 	Networks & Network Function Virtualization 2018*, Tempe, AZ, USA,
-	2018 [full paper](../doc/ml-ransomware-sdnnfvsec18.pdf) [acm dl](https://dl.acm.org/citation.cfm?id=3180467) [bibtex](../doc/ml-ransomware-sdnnfvsec18.bib)
-* Oliver Michel, Eric Keller. "**SDN in Wide-Area Networks: A Survey**".
-	In *Proceedings of the 4th IEEE International Conference on Software Defined Systems* (SDS-2017),
-	Valencia, Spain, 2017 [full paper](../doc/sdwan-sds17.pdf)
-	[slides](../doc/sdwan-sds17-slides.pdf) [ieee xplore](http://ieeexplore.ieee.org/document/7939138/)
+	2018
+	[full paper](../doc/ml-ransomware-sdnnfvsec18.pdf)
+	[acm dl](https://dl.acm.org/citation.cfm?id=3180467)
+	[bibtex](../doc/ml-ransomware-sdnnfvsec18.bib)
+* Oliver Michel, Eric Keller. "**SDN in Wide-Area Networks: A Survey**". In *Proceedings of the 4th
+	IEEE International Conference on Software Defined Systems* (SDS-2017), Valencia, Spain, 2017
+	[full paper](../doc/sdwan-sds17.pdf)
+	[slides](../doc/sdwan-sds17-slides.pdf)
+	[ieee xplore](http://ieeexplore.ieee.org/document/7939138/)
 	[bibtex](../doc/sdwan-sds17.bib)
-* Oliver Michel, Eric Keller. "**Policy Routing using Process-Level Identifiers**".
-	In *Proceedings of the 3rd IEEE International Symposium on Software Defined Systems*
-	(SDS-2016), Berlin, Germany, 2016 [full paper](../doc/prpl-sds16.pdf)
-	[slides](../doc/prpl-sds16-slides.pdf) [ieee xplore](http://ieeexplore.ieee.org/document/7527807/)
+* Oliver Michel, Eric Keller. "**Policy Routing using Process-Level Identifiers**". In *Proceedings
+	of the 3rd IEEE International Symposium on Software Defined Systems* (SDS-2016), Berlin,
+	Germany, 2016
+	[full paper](../doc/prpl-sds16.pdf)
+	[slides](../doc/prpl-sds16-slides.pdf)
+	[ieee xplore](http://ieeexplore.ieee.org/document/7527807/)
 	[bibtex](../doc/prpl-sds16.bib)
-* Matthew Monaco, Oliver Michel, and Eric Keller. "**Applying Operating System
-	Principles to SDN Controller Design**". In *Proceedings of the 12th ACM
-	Workshop on Hot Topics in Networks* (HotNets-XII), College Park, MD, USA,
-	2013 [full paper](../doc/yanc-hotnets.pdf) [acm dl](http://dl.acm.org/citation.cfm?id=2535789)
+* Matthew Monaco, Oliver Michel, and Eric Keller. "**Applying Operating System Principles to SDN
+	Controller Design**". In *Proceedings of the 12th ACM Workshop on Hot Topics in Networks*
+	(HotNets-XII), College Park, MD, USA,
+	2013
+	[full paper](../doc/yanc-hotnets.pdf)
+	[acm dl](http://dl.acm.org/citation.cfm?id=2535789)
 	[bibtex](../doc/yanc-hotnets.bib)
-* Ashish Vulimiri, Oliver Michel, P. Brighten Godfrey, and Scott Shenker. "**More
-	is Less: Reducing Latency via Redundancy**". In *Proceedings of the 11th ACM
-	Workshop on Hot Topics in Networks* (HotNets-XI), Redmond, WA, USA, 2012
-	[full paper](../doc/hotnets12.pdf) [acm dl](http://dl.acm.org/citation.cfm?id=2390234)
+* Ashish Vulimiri, Oliver Michel, P. Brighten Godfrey, and Scott Shenker. "**More is Less: Reducing
+	Latency via Redundancy**". In *Proceedings of the 11th ACM Workshop on Hot Topics in Networks*
+	(HotNets-XI), Redmond, WA, USA, 2012
+	[full paper](../doc/hotnets12.pdf)
+	[acm dl](http://dl.acm.org/citation.cfm?id=2390234)
 	[bibtex](../doc/hotnets12.bib)
 
 ## Technical Reports

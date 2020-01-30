@@ -4,13 +4,12 @@ layout: page
 permalink: /resume/
 ---
 
-A full, less condensed version of this can be downloaded by
-clicking [here](../doc/omichel-cv.pdf).
+A full, less condensed version of this can be downloaded by clicking [here](../doc/omichel-cv.pdf).
 
 ## Education
 
-* Doctoral Student, Computer Science, University of Colorado Boulder,
-	2013-2019 (expected)
+* *Philosophical Doctor (Ph.D.)*, Computer Science, University of Colorado Boulder,
+	2013-2019
 * *Master of Science (M.S.)*, Computer Science, University of Colorado
 	Boulder, 2013-2015
 * *Bachelor of Science (B.Sc.)*, Computer Science, University of Vienna,
@@ -49,7 +48,10 @@ clicking [here](../doc/omichel-cv.pdf).
 	2003 - ongoing
 
 ## Presentations
-* Oliver Michel. "Cloud-Scale Packet-Level Telemetry and Analytics". Invited Talk, North American Network Operators Group General Meeting 73, Denver, CO, USA, June 2018. [slides](../doc/nanog73-final.pdf) [video](https://www.youtube.com/watch?v=hwdaCfjGxdI)
+* Oliver Michel. "Cloud-Scale Packet-Level Telemetry and Analytics". Invited Talk, North American
+	Network Operators Group General Meeting 73, Denver, CO, USA, June 2018.
+	[slides](../doc/nanog73-final.pdf)
+	[video](https://www.youtube.com/watch?v=hwdaCfjGxdI)
 * Oliver Michel. "Hardware-accelerated Lossless Flow Monitoring". Guest Lecture, ECEN5008
 	University of Colorado Boulder, CO, USA, October 2017.
 * Oliver Michel, Eric Keller, Fernando Ramos. "Network Defragmentation in
