@@ -1,224 +1,234 @@
 
 @charset 'utf-8';
 
-@import "foundation/foundation";
+@import "bulma/utilities/_all";
+@import "bulma/base/_all";
+@import "bulma/elements/_all";
+// @import "bulma/form/_all";
+// @import "bulma/components/_all";
+@import "bulma/grid/_all";
+@import "bulma/layout/_all";
+
 @import "fa/font-awesome";
 
-$text-color: #111;
-$title-color: #555;
-$link-color: #777;
-$link-color-hover: #333;
-$h1-color: #333;
-$h2-color: #444;
+// @import "foundation/foundation";
 
-$breakpoints: (
-	small:  0px,
-	medium: 640px,
-	large:  1024px,
-);
 
-@include foundation-global-styles;
-@include foundation-grid;
-@include foundation-typography;
-@include foundation-visibility-classes;
-@include foundation-float-classes;
+// $text-color: #111;
+// $title-color: #555;
+// $link-color: #777;
+// $link-color-hover: #333;
+// $h1-color: #333;
+// $h2-color: #444;
 
-body {
-	background: url(../img/alaska.jpg);
+// $breakpoints: (
+// 	small:  0px,
+// 	medium: 640px,
+// 	large:  1024px,
+// );
 
-	// general formatting
+// @include foundation-global-styles;
+// @include foundation-grid;
+// @include foundation-typography;
+// @include foundation-visibility-classes;
+// @include foundation-float-classes;
 
-	h1 {
-		font-size: 16pt;
-		color:     $h1-color;
-	}
+// body {
+// 	background: url(../img/alaska.jpg);
 
-	h2 {
-		color:     $h2-color;
+// 	// general formatting
 
-		@include breakpoint(small) { font-size: 12pt; }
+// 	h1 {
+// 		font-size: 16pt;
+// 		color:     $h1-color;
+// 	}
 
-		@include breakpoint(medium) { font-size: 13pt; }
-	}
+// 	h2 {
+// 		color:     $h2-color;
 
-	ul {
-		list-style-type: square;
+// 		@include breakpoint(small) { font-size: 12pt; }
 
-		@include breakpoint(small) { margin-bottom: 10px; }
+// 		@include breakpoint(medium) { font-size: 13pt; }
+// 	}
 
-		@include breakpoint(medium) { margin-bottom: 30px; }
+// 	ul {
+// 		list-style-type: square;
 
-		li {
+// 		@include breakpoint(small) { margin-bottom: 10px; }
 
-			text-align: justify;
+// 		@include breakpoint(medium) { margin-bottom: 30px; }
 
-			@include breakpoint(small) {
-				line-height:   1.2;
-				font-size:     10pt;
-				margin-bottom: 5px;
-			}
+// 		li {
 
-			@include breakpoint(medium) {
-				line-height:   1.3;
-				font-size:     10.5pt;
-				margin-bottom: 10px;
-			}
+// 			text-align: justify;
 
-			a {
-				color: #003366;
+// 			@include breakpoint(small) {
+// 				line-height:   1.2;
+// 				font-size:     10pt;
+// 				margin-bottom: 5px;
+// 			}
 
-				&::before {
-					content: "[";
-					color:   #555;
-				}
+// 			@include breakpoint(medium) {
+// 				line-height:   1.3;
+// 				font-size:     10.5pt;
+// 				margin-bottom: 10px;
+// 			}
 
-				&::after {
-					content: "]";
-					color:   #555;
-				}
-			}
-		}
-	}
+// 			a {
+// 				color: #003366;
 
-	a {
-		color: #003366;
+// 				&::before {
+// 					content: "[";
+// 					color:   #555;
+// 				}
 
-		&:hover {
-			color: #003366;
-			text-decoration: underline;
-		}
-	}
+// 				&::after {
+// 					content: "]";
+// 					color:   #555;
+// 				}
+// 			}
+// 		}
+// 	}
 
-	strong {
-		font-weight: 500;
-	}
+// 	a {
+// 		color: #003366;
 
-	// HTML5 semantic tags styles
+// 		&:hover {
+// 			color: #003366;
+// 			text-decoration: underline;
+// 		}
+// 	}
 
-	header {
+// 	strong {
+// 		font-weight: 500;
+// 	}
 
-		@include grid-row;
-		@include breakpoint(small)  { @include grid-col-size(11); }
-		@include breakpoint(medium) { @include grid-col-size(8);  }
-		@include breakpoint(large)  { @include grid-col-size(6);  }
+// 	// HTML5 semantic tags styles
 
-		color:          $title-color;
-		letter-spacing: 1px;
-		padding:        20px 4px 0px 4px;
-		text-transform: uppercase;
+// 	header {
 
-		@include breakpoint(small) { font-size: 14pt; }
+// 		@include grid-row;
+// 		@include breakpoint(small)  { @include grid-col-size(11); }
+// 		@include breakpoint(medium) { @include grid-col-size(8);  }
+// 		@include breakpoint(large)  { @include grid-col-size(6);  }
 
-		@include breakpoint(medium) { font-size: 18pt; }
-	}
+// 		color:          $title-color;
+// 		letter-spacing: 1px;
+// 		padding:        20px 4px 0px 4px;
+// 		text-transform: uppercase;
 
-	nav {
+// 		@include breakpoint(small) { font-size: 14pt; }
 
-		@include grid-row;
-		@include breakpoint(small)  { @include grid-col-size(11); }
-		@include breakpoint(medium) { @include grid-col-size(8);  }
-		@include breakpoint(large)  { @include grid-col-size(6);  }
+// 		@include breakpoint(medium) { font-size: 18pt; }
+// 	}
 
-		border-bottom: 2px solid #888;
-		padding:       0px 4px 8px 4px;
+// 	nav {
 
-		a {
-			color: #777;
+// 		@include grid-row;
+// 		@include breakpoint(small)  { @include grid-col-size(11); }
+// 		@include breakpoint(medium) { @include grid-col-size(8);  }
+// 		@include breakpoint(large)  { @include grid-col-size(6);  }
 
-			&:hover, &.active {
-				color:           $link-color-hover;
-				text-decoration: none;
-			}
+// 		border-bottom: 2px solid #888;
+// 		padding:       0px 4px 8px 4px;
 
-			@include breakpoint(small) {
-				font-size:    11pt;
-				margin-right: 2px;
-			}
+// 		a {
+// 			color: #777;
 
-			@include breakpoint(medium) {
-				font-size:    13pt;
-				margin-right: 6px;
-			}
-		}
-	}
+// 			&:hover, &.active {
+// 				color:           $link-color-hover;
+// 				text-decoration: none;
+// 			}
 
-	main {
+// 			@include breakpoint(small) {
+// 				font-size:    11pt;
+// 				margin-right: 2px;
+// 			}
 
-		@include grid-row;
-		@include breakpoint(small)  { @include grid-col-size(11); }
-		@include breakpoint(medium) { @include grid-col-size(8);  }
-		@include breakpoint(large)  { @include grid-col-size(6);  }
+// 			@include breakpoint(medium) {
+// 				font-size:    13pt;
+// 				margin-right: 6px;
+// 			}
+// 		}
+// 	}
 
-		padding: 18px 4px;
+// 	main {
 
-		p {
-			color:       $text-color;
-			text-align: justify;
+// 		@include grid-row;
+// 		@include breakpoint(small)  { @include grid-col-size(11); }
+// 		@include breakpoint(medium) { @include grid-col-size(8);  }
+// 		@include breakpoint(large)  { @include grid-col-size(6);  }
 
-			@include breakpoint(small) {
-				font-size:   10pt;
-				line-height: 1.3;
-			}
+// 		padding: 18px 4px;
 
-			@include breakpoint(medium) {
-				font-size:   10.5pt;
-				line-height: 1.5;
-			}
+// 		p {
+// 			color:       $text-color;
+// 			text-align: justify;
 
-		}
-	}
+// 			@include breakpoint(small) {
+// 				font-size:   10pt;
+// 				line-height: 1.3;
+// 			}
 
-	footer {
+// 			@include breakpoint(medium) {
+// 				font-size:   10.5pt;
+// 				line-height: 1.5;
+// 			}
 
-		@include grid-row;
-		@include breakpoint(small)  { @include grid-col-pos(0.5); @include grid-col-size(11); }
-		@include breakpoint(medium) { @include grid-col-pos(2); @include grid-col-size(8);  }
-		@include breakpoint(large)  { @include grid-col-pos(3); @include grid-col-size(6);  }
+// 		}
+// 	}
 
-		margin: 0px 0px 10px 0px;
+// 	footer {
 
-		.icons {
-			text-align: center;
+// 		@include grid-row;
+// 		@include breakpoint(small)  { @include grid-col-pos(0.5); @include grid-col-size(11); }
+// 		@include breakpoint(medium) { @include grid-col-pos(2); @include grid-col-size(8);  }
+// 		@include breakpoint(large)  { @include grid-col-pos(3); @include grid-col-size(6);  }
 
-			a {
-				color:   $link-color;
-				padding: 2px;
+// 		margin: 0px 0px 10px 0px;
 
-				&:hover { color: $link-color-hover }
-			}
-		}
-	}
+// 		.icons {
+// 			text-align: center;
 
-	// other styles
+// 			a {
+// 				color:   $link-color;
+// 				padding: 2px;
 
-	.top-stripe {
-		position:   absolute;
-		top:        0px;
-		width:      100%;
-		height:     3px;
-		background: #003366;
-	}
+// 				&:hover { color: $link-color-hover }
+// 			}
+// 		}
+// 	}
 
-	.degree {
-		color:         #444;
-		font-size:     10pt;
-		margin-bottom: 10px;
-	}
+// 	// other styles
 
-	.addr {
-		color:         #666;
-		font-size:     10pt;
-		margin-bottom: 15px;
-	}
+// 	.top-stripe {
+// 		position:   absolute;
+// 		top:        0px;
+// 		width:      100%;
+// 		height:     3px;
+// 		background: #003366;
+// 	}
 
-	.portrait {
+// 	.degree {
+// 		color:         #444;
+// 		font-size:     10pt;
+// 		margin-bottom: 10px;
+// 	}
 
-		@include show-for(medium);
+// 	.addr {
+// 		color:         #666;
+// 		font-size:     10pt;
+// 		margin-bottom: 15px;
+// 	}
 
-		float: right;
-		background: #f3f3f3;
-		border:     1px solid #999;
-		margin:     0px 0px 15px 15px;
-		padding:    4px;
-	}
-}
+// 	.portrait {
+
+// 		@include show-for(medium);
+
+// 		float: right;
+// 		background: #f3f3f3;
+// 		border:     1px solid #999;
+// 		margin:     0px 0px 15px 15px;
+// 		padding:    4px;
+// 	}
+// }
