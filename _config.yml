@@ -1,18 +1,5 @@
 
 title: Oliver Michel
-description: >
-  I am a third-year doctoral student in Computer Science at the University of
-  Colorado at Boulder. Here, I am working in the Next Generation Networks
-  Research Group (NGN) advised by Professor Eric Keller. I received a Bachelor's
-  degree in Computer Science from the University of Vienna, Austria advised by
-  Professor Kurt Tutschku in 2013 and a Master's degree in Computer Science from
-  the University of Colorado Boulder advised by Professor Eric Keller in 2015.
-  During my undergraduate studies, I spent one year at the University of Illinois
-  at Urbana-Champaign working with Professor Brighten Godfrey. My research
-  interests span almost all areas of Computer Networking, and in particular
-  low-latency-networking, multi-path routing, network management abstractions,
-  software-defined networking, intra-application networks, and applications of
-  these topics in healthcare.
 
 nav:
   - text: about
