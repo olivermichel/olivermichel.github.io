@@ -22,3 +22,9 @@ url: "https://olivermichel.github.io"
 
 markdown: kramdown
 
+sass:
+  style: compressed
+  load_paths:
+    - _sass
+    - node_modules/foundation-sites/scss
+    - node_modules/font-awesome/scss

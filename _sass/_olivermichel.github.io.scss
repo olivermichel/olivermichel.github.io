@@ -1,8 +1,8 @@
 
 @charset 'utf-8';
 
-@import "foundation/foundation";
-@import "fa/font-awesome";
+@import "foundation";
+@import "font-awesome";
 
 $text-color: #111;
 $title-color: #555;
@@ -165,6 +165,29 @@ body {
 				line-height: 1.5;
 			}
 
+		}
+
+		figure.highlight pre {
+			
+			@include breakpoint(small) {
+				font-size: 9pt;
+				margin:    5px 0px;
+				padding:   8px;
+			}
+
+			@include breakpoint(medium) {
+				font-size: 10pt;
+				margin:    8px 0px;
+				padding:   10px;
+			}
+
+			font-family: Menlo, Monaco, 'Courier New', monospace;
+			line-height: normal;
+
+			code {
+				background: none;
+				border: none;
+			}
 		}
 	}
 
