@@ -4,6 +4,8 @@
 @import "foundation";
 @import "font-awesome";
 
+//TODO: clean up variables
+
 $text-color: #111;
 $title-color: #555;
 $link-color: #777;
@@ -11,9 +13,11 @@ $link-color-hover: #333;
 $h1-color: #333;
 $h2-color: #444;
 
+$dark-blue: #003366;
+
 $breakpoints: (
-	small:  0px,
-	medium: 640px,
+	small:     0px,
+	medium:  640px,
 	large:  1024px,
 );
 
@@ -22,6 +26,33 @@ $breakpoints: (
 @include foundation-typography;
 @include foundation-visibility-classes;
 @include foundation-float-classes;
+
+@mixin row {
+	@include grid-row;
+	@include breakpoint(small)  { @include grid-col-size(11); }
+	@include breakpoint(medium) { @include grid-col-size(8);  }
+	@include breakpoint(large)  { @include grid-col-size(7);  }
+	max-width: 960px;
+}
+
+@mixin radius($radius) {
+	border-radius-topleft:              $radius;
+    border-radius-bottomleft:           $radius;
+    border-radius-topright:             $radius;
+	border-radius-bottomright:          $radius;
+	-moz-border-radius-topleft:         $radius;
+	-moz-border-radius-bottomleft:      $radius;
+    -moz-border-radius-topright:        $radius;
+	-moz-border-radius-bottomright:     $radius;
+	-webkit-border-top-left-radius:     $radius;
+    -webkit-border-bottom-left-radius:  $radius;
+    -webkit-border-top-right-radius:    $radius;
+    -webkit-border-bottom-right-radius: $radius;
+	-khtml-border-top-left-radius:      $radius;
+    -khtml-border-bottom-left-radius:   $radius;
+	-khtml-border-top-right-radius:     $radius;
+    -khtml-border-bottom-right-radius:  $radius;
+}
 
 body {
 	background: url(../img/alaska.jpg);
@@ -93,14 +124,9 @@ body {
 		font-weight: 500;
 	}
 
-	// HTML5 semantic tags styles
-
 	header {
 
-		@include grid-row;
-		@include breakpoint(small)  { @include grid-col-size(11); }
-		@include breakpoint(medium) { @include grid-col-size(8);  }
-		@include breakpoint(large)  { @include grid-col-size(6);  }
+		@include row;
 
 		color:          $title-color;
 		letter-spacing: 1px;
@@ -114,10 +140,7 @@ body {
 
 	nav {
 
-		@include grid-row;
-		@include breakpoint(small)  { @include grid-col-size(11); }
-		@include breakpoint(medium) { @include grid-col-size(8);  }
-		@include breakpoint(large)  { @include grid-col-size(6);  }
+		@include row;
 
 		border-bottom: 2px solid #888;
 		padding:       0px 4px 8px 4px;
@@ -144,10 +167,7 @@ body {
 
 	main {
 
-		@include grid-row;
-		@include breakpoint(small)  { @include grid-col-size(11); }
-		@include breakpoint(medium) { @include grid-col-size(8);  }
-		@include breakpoint(large)  { @include grid-col-size(6);  }
+		@include row;
 
 		padding: 18px 4px;
 
@@ -193,12 +213,9 @@ body {
 
 	footer {
 
-		@include grid-row;
-		@include breakpoint(small)  { @include grid-col-pos(0.5); @include grid-col-size(11); }
-		@include breakpoint(medium) { @include grid-col-pos(2); @include grid-col-size(8);  }
-		@include breakpoint(large)  { @include grid-col-pos(3); @include grid-col-size(6);  }
+		@include row;
 
-		margin: 0px 0px 10px 0px;
+		margin-bottom: 10px;
 
 		.icons {
 			text-align: center;
@@ -207,7 +224,10 @@ body {
 				color:   $link-color;
 				padding: 2px;
 
-				&:hover { color: $link-color-hover }
+				&:hover {
+					color: $link-color-hover;
+					text-decoration: none;
+				}
 			}
 		}
 	}
@@ -243,5 +263,42 @@ body {
 		border:     1px solid #999;
 		margin:     0px 0px 15px 15px;
 		padding:    4px;
+	}
+
+	article.post {
+		
+		display: block;
+		margin: 10px 0px;
+
+		h1 {
+			margin: 0;
+		}
+
+		.date {
+			@include breakpoint(medium) {
+				text-align: left;
+			}
+
+			@include breakpoint(large) {
+				text-align: right;
+			}
+
+			font-size: 11pt;
+		}
+
+		.tags {
+			@include show-for(medium);
+
+			display: block;
+			padding: 6px 0px;
+
+			.tag {
+				display:      inline-block;
+				padding:      1px 5px;
+				background: #666;
+				color:      white;
+				font-size:    10pt;
+			}
+		}
 	}
 }
