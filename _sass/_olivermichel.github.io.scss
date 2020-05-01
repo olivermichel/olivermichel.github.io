@@ -55,6 +55,9 @@ $breakpoints: (
     -khtml-border-bottom-right-radius:  $radius;
 }
 
+
+
+
 body {
 	background: url(../img/alaska.jpg);
 
@@ -222,12 +225,28 @@ body {
 			text-align: center;
 
 			a {
-				color:   $link-color;
-				padding: 2px;
+				padding: 8px;
+				margin: 5px;
+				display: inline-block;
+				width: 25px;
+				height: 25px;
+				
+				filter: invert(50%);
 
 				&:hover {
-					color: $link-color-hover;
-					text-decoration: none;
+					filter: invert(20%);
+				}
+
+				&.github {
+					background: url(../img/github.svg);
+				}
+
+				&.google {
+					background: url(../img/google.svg);
+				}
+
+				&.linkedin {
+					background: url(../img/linkedin.svg);
 				}
 			}
 		}
