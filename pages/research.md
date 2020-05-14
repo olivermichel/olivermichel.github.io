@@ -3,9 +3,11 @@ layout: page
 permalink: /research/
 ---
 
-## Current Projects
+# Current Projects
 
-**Packet-Level Analytics in Software without Compromises** --- Traditionally, network monitoring
+## Packet-Level Analytics in Software without Compromises
+
+Traditionally, network monitoring
 and analytics systems rely on aggregation (*e.g.,* flow records) or sampling to cope with high
 packet rates. This has the downside that, in doing so, we lose data granularity and accuracy, and in
 general limit the possible network analytics we can perform. Recent proposals leveraging
@@ -19,6 +21,8 @@ specialization of stream processing systems. As a result, an evaluation with our
 implementation shows that we can scale up to several million packets per second per core and
 together with load balancing and further optimizations, the vision of cloud-scale per-packet network
 analytics is possible.
+
+## Previous Projects
 
 **Defragmenting the Cloud** ---	Network virtualization is an extensively used approach to allow
 multiple tenants with different network architectures and services to coexist on a shared data
@@ -40,8 +44,6 @@ the infrastructure, thus increasing provider revenue. On average, using defragme
 reduction in path length and utilization and cuts the number of very long paths (longer than half of
 the network diameter) between 52% and 62%. Moreover, it doubles the number of servers utilized by
 50% or less as a result of consolidating resource utilization.
-
-## Previous Projects
 
 **Policy Routing using Process-Level Identifiers** --- Enforcing and routing based on network-wide
 policies remains a crucial challenge in the operation of large-scale enterprise and datacenter

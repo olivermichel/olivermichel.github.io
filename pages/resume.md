@@ -9,31 +9,32 @@ A full, less condensed version of this can be downloaded by clicking [here](../d
 ## Education
 
 * *Philosophical Doctor (Ph.D.)*, Computer Science, University of Colorado Boulder,
-	2013-2019
+	2013 - 2019
 * *Master of Science (M.S.)*, Computer Science, University of Colorado
-	Boulder, 2013-2015
+	Boulder, 2013 - 2015
 * *Bachelor of Science (B.Sc.)*, Computer Science, University of Vienna,
-2009-2013
+2009 - 2013
 * Exchange Student, University of Illinois at Urbana-Champaign, Department
 	of Computer Science, 2011
 * Exchange Student, Mount Lebanon High School, Pittsburgh, PA, USA, 2006
 * *Advanced EMT*, School of the German Red Cross, Düsseldorf, Germany,
-	2008-2009
-* *Abitur*, Stifisches Gymnasium, Düren, Germany, 1999-2008
+	2008 - 2009
+* *Abitur*, Stifisches Gymnasium, Düren, Germany, 1999 - 2008
 
 ## Research Experience
 
+* Postdoctoral Researcher, Communication Technologies Research Group, Faculty
+	of Computer Science at the University of Vienna, Austria, since 2020
 * Research Assistant, Next Generation Networks Research Group, Department
 	of Computer Science at the University of Colorado Boulder,
-	Boulder, CO, USA, 2014 - ongoing
-* Undergraduate Research Assistant, Institute for Distributed &
-	Multimedia Systems - Chair of Future Communication at the
-	University of Vienna, Austria
+	Boulder, CO, USA, 2013 - 2019
+* Undergraduate Research Assistant, Future Communication Research Group, Faculty
+	of Computer Science at the University of Vienna, Austria, 2010 - 2013 (part time)
 
 ## Teaching Experience
 
-* Guest Lecturer, Advanced Networking, (ECEN5013), Professor Eric Keller,
-	University of Colorado at Boulder, CO, USA, Oct. 2015
+* Guest Lecturer, Advanced Networking, Professor Eric Keller,
+	University of Colorado at Boulder, CO, USA, 2015 - 2018
 * Teaching Assistant, CSCI2400 Computer Systems, Professor Richard Han,
 	University of Colorado at Boulder, CO, USA, Aug. 2013 - Dec. 2013
 * Undergraduate Teaching Assistant, Undergraduate Networking (VO Network
@@ -42,12 +43,15 @@ A full, less condensed version of this can be downloaded by clicking [here](../d
 
 ## Work Experience
 
+* Backend Software Engineer, Tourradar.com GmbH, Vienna, Austria, 2019 - 2020
 * iOS Software Engineer, Tupalo.com Internet-Services GmbH, Vienna,
 	Austria, 2009 - 2011
-* Founder, :editum.internet solutions GbR, Hürtgenwald, Germany,
-	2003 - ongoing
+* Founder, editum internet solutions GbR, Hürtgenwald, Germany, since 2013
 
-## Presentations
+## Invited Talks and Presentations
+
+* Oliver Michel. "Packet-Level Network Telemetry and Analytics". Invited Talk, University of Vienna,
+	Austria, April 2019.
 * Oliver Michel. "Cloud-Scale Packet-Level Telemetry and Analytics". Invited Talk, North American
 	Network Operators Group General Meeting 73, Denver, CO, USA, June 2018.
 	[slides](../doc/nanog73-final.pdf)
