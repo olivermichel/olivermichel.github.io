@@ -8,8 +8,9 @@ $text-color: #111;
 $title-color: #555;
 $link-color: #777;
 $link-color-hover: #333;
+
 $h1-color: #333;
-$h2-color: #444;
+$h2-color: #333;
 
 $dark-blue: #003366;
 
@@ -30,7 +31,7 @@ $breakpoints: (
 	@include breakpoint(small)  { @include grid-col-size(11); }
 	@include breakpoint(medium) { @include grid-col-size(8);  }
 	@include breakpoint(large)  { @include grid-col-size(7);  }
-	max-width: 960px;
+	max-width: 880px;
 }
 
 @mixin radius($radius) {
@@ -52,48 +53,40 @@ $breakpoints: (
     -khtml-border-bottom-right-radius:  $radius;
 }
 
-
-
-
 body {
 
 	background: rgb(237,240,240);
 	background: linear-gradient(160deg, rgba(237,240,240,1) 0%, rgba(239,240,240,1) 100%);
 
-	// general formatting
-
 	h1 {
-		font-size: 16pt;
-		color:     $h1-color;
+		color: $h1-color;
+		@include breakpoint(small) { font-size: 12pt; }
+		@include breakpoint(medium) { font-size: 13pt; }
 	}
 
 	h2 {
-		color:     $h2-color;
-
-		@include breakpoint(small) { font-size: 12pt; }
-
-		@include breakpoint(medium) { font-size: 13pt; }
+		color: $h2-color;
+		margin-bottom: 2px;
+		@include breakpoint(small) { font-size: 11pt; }
+		@include breakpoint(medium) { font-size: 12pt; }
 	}
 
 	ul {
 		list-style-type: square;
-
 		@include breakpoint(small) { margin-bottom: 10px; }
-
 		@include breakpoint(medium) { margin-bottom: 30px; }
 
 		li {
-
 			text-align: justify;
 
 			@include breakpoint(small) {
-				line-height:   1.2;
+				line-height:   1.15;
 				font-size:     10pt;
 				margin-bottom: 5px;
 			}
 
 			@include breakpoint(medium) {
-				line-height:   1.3;
+				line-height:   1.25;
 				font-size:     10.5pt;
 				margin-bottom: 10px;
 			}
@@ -131,13 +124,12 @@ body {
 
 		@include row;
 
-		color:          $title-color;
+		color: $title-color;
 		letter-spacing: 1px;
-		padding:        20px 4px 0px 4px;
+		padding: 20px 4px 0px 4px;
 		text-transform: uppercase;
 
 		@include breakpoint(small) { font-size: 14pt; }
-
 		@include breakpoint(medium) { font-size: 18pt; }
 	}
 
@@ -145,24 +137,24 @@ body {
 
 		@include row;
 
-		border-bottom: 2px solid #888;
-		padding:       0px 4px 8px 4px;
+		border-bottom: 1px solid #ccc;
+		padding: 0px 4px 8px 4px;
 
 		a {
 			color: #777;
 
 			&:hover, &.active {
-				color:           $link-color-hover;
+				color: $link-color-hover;
 				text-decoration: none;
 			}
 
 			@include breakpoint(small) {
-				font-size:    11pt;
+				font-size: 11pt;
 				margin-right: 2px;
 			}
 
 			@include breakpoint(medium) {
-				font-size:    13pt;
+				font-size: 13pt;
 				margin-right: 6px;
 			}
 		}
@@ -175,16 +167,16 @@ body {
 		padding: 18px 4px;
 
 		p {
-			color:       $text-color;
+			color: $text-color;
 			text-align: justify;
 
 			@include breakpoint(small) {
-				font-size:   10pt;
+				font-size: 10pt;
 				line-height: 1.3;
 			}
 
 			@include breakpoint(medium) {
-				font-size:   10.5pt;
+				font-size: 10.5pt;
 				line-height: 1.5;
 			}
 
@@ -194,14 +186,14 @@ body {
 			
 			@include breakpoint(small) {
 				font-size: 9pt;
-				margin:    5px 0px;
-				padding:   8px;
+				margin: 5px 0px;
+				padding: 8px;
 			}
 
 			@include breakpoint(medium) {
 				font-size: 10pt;
-				margin:    8px 0px;
-				padding:   10px;
+				margin: 8px 0px;
+				padding: 10px;
 			}
 
 			font-family: Menlo, Monaco, 'Courier New', monospace;
@@ -254,22 +246,22 @@ body {
 	// other styles
 
 	.top-stripe {
-		position:   absolute;
-		top:        0px;
-		width:      100%;
-		height:     3px;
+		position: absolute;
+		top: 0px;
+		width: 100%;
+		height: 3px;
 		background: #003366;
 	}
 
 	.degree {
-		color:         #444;
-		font-size:     10pt;
+		color: #444;
+		font-size: 10pt;
 		margin-bottom: 10px;
 	}
 
 	.addr {
-		color:         #666;
-		font-size:     10pt;
+		color: #666;
+		font-size: 10pt;
 		margin-bottom: 15px;
 	}
 
@@ -279,9 +271,9 @@ body {
 
 		float: right;
 		background: #f3f3f3;
-		border:     1px solid #999;
-		margin:     0px 0px 15px 15px;
-		padding:    4px;
+		border: 1px solid #999;
+		margin: 0px 0px 15px 15px;
+		padding: 4px;
 	}
 
 	article.post {
@@ -312,11 +304,11 @@ body {
 			padding: 6px 0px;
 
 			.tag {
-				display:      inline-block;
-				padding:      1px 5px;
+				display: inline-block;
+				padding: 1px 5px;
 				background: #666;
-				color:      white;
-				font-size:    10pt;
+				color: white;
+				font-size: 10pt;
 			}
 		}
 	}
