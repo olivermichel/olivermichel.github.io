@@ -56,7 +56,9 @@ $breakpoints: (
 
 
 body {
-	background: url(../img/alaska.jpg);
+
+	background: rgb(237,240,240);
+	background: linear-gradient(160deg, rgba(237,240,240,1) 0%, rgba(239,240,240,1) 100%);
 
 	// general formatting
 
