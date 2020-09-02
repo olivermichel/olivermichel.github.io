@@ -16,12 +16,14 @@ permalink: /publications/
 	Centers**". In *Proceedings of the 6th IEEE International Conference on Software Defined
 	Systems* (SDS-2019)*, Rome, Italy, 2019
 	[full paper](../doc/dcdefrag-sds19.pdf)
+	[ieee xplore](https://ieeexplore.ieee.org/abstract/document/8768700)
 * Oliver Michel, John Sonchack, Eric Keller, Jonathan M. Smith. "**PIQ: Persistent Interactive
 	Queries for Network Analytics**". In *Proceedings of the ACM International Workshop on Security
 	in Software Defined Networks & Network Function Virtualization (SDN-NFV Sec 2019)*, Dallas, TX,
 	USA, 2019
 	[full paper](../doc/piq-sdnnfvsec19.pdf)
 	[slides](../doc/piq-sdnnfvsec19-slides.pdf)
+	[acm dl](https://dl.acm.org/doi/abs/10.1145/3309194.3309197)
 * Oliver Michel, John Sonchack, Eric Keller, Jonathan M. Smith. "**Packet-Level Analytics in
 	Software without Compromises**". In *Proceedings of 10th USENIX Workshop on Hot Topics in Cloud
 	Computing (HotCloud '18)*, Boston, MA, USA, 2018
@@ -73,7 +75,7 @@ permalink: /publications/
 
 *  Oliver Michel, Roberto Bifulco, Gábor Rétvári, Stefan Schmid. "**The Programmable Data Plane:
 	Abstractions, Architectures, Algorithms, and Applications**". IEEE TechRxiv Preprint, 2020
-	[TechRxiv](https://www.techrxiv.org/articles/preprint/The_Programmable_Data_Plane_Abstractions_Architectures_Algorithms_and_Applications/12894677)
+	[techrxiv](https://www.techrxiv.org/articles/preprint/The_Programmable_Data_Plane_Abstractions_Architectures_Algorithms_and_Applications/12894677)
 	[reading list](https://programmabledataplane.review)
 
 * Matthew Monaco, Oliver Michel, and Eric Keller. "**Applying Operating System Principles to SDN
