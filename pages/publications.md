@@ -71,8 +71,13 @@ permalink: /publications/
 
 ## Technical Reports
 
+*  Oliver Michel, Roberto Bifulco, Gábor Rétvári, Stefan Schmid. "**The Programmable Data Plane:
+	Abstractions, Architectures, Algorithms, and Applications**". IEEE TechRxiv Preprint, 2020
+	[TechRxiv](https://www.techrxiv.org/articles/preprint/The_Programmable_Data_Plane_Abstractions_Architectures_Algorithms_and_Applications/12894677)
+	[reading list](https://programmabledataplane.review)
+
 * Matthew Monaco, Oliver Michel, and Eric Keller. "**Applying Operating System Principles to SDN
-	Controller Design**". *University of Colorado Technical Report*, Boulder, CO, 2015
+	Controller Design**". *University of Colorado Technical Report*, Boulder, CO, USA, 2015
 	[full paper](../doc/yanc-hotnets.pdf) [arXiv](https://arxiv.org/abs/1510.05063)
 
 ## Posters
