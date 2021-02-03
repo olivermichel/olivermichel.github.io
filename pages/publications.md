@@ -4,13 +4,17 @@ layout: page
 permalink: /publications/
 ---
 
-## Dissertation
+## Journal Articles
 
-* Oliver Michel. "**Packet-Level Network Telemetry and Analytics**". Doctoral Dissertation,
-	University of Colorado Boulder, 2019
-	[full document](../doc/dissertation.pdf)
+* Oliver Michel, Gabor Retvari, Roberto Bifulco, Stefan Schmid. "**The Programmable Data Plane:
+	Abstractions, Architectures, Algorithms, and Applications**". To appear in *ACM Computing
+	Surveys (CSUR)*, 2021
 
-## Conference Proceedings
+* Oliver Michel, John Sonchack, Greg Cusack, Maziyar Nazari, Eric Keller, Jonathan M. Smith.
+	"**Software Packet-Level Network Analytics at Cloud Scale**". To appear in *IEEE Transactions
+	on Network and Service Management (TNSM)*, 2021
+
+## Conference or Workshop Proceedings
 
 * Oliver Michel, Eric Keller, Fernando M.V. Ramos. "**Network Defragmentation in Virtualized Data
 	Centers**". In *Proceedings of the 6th IEEE International Conference on Software Defined
@@ -70,6 +74,12 @@ permalink: /publications/
 	[full paper](../doc/hotnets12.pdf)
 	[acm dl](http://dl.acm.org/citation.cfm?id=2390234)
 	[bibtex](../doc/hotnets12.bib)
+
+## Dissertation
+
+* Oliver Michel. "**Packet-Level Network Telemetry and Analytics**". Doctoral Dissertation,
+	University of Colorado Boulder, 2019
+	[full document](../doc/dissertation.pdf)
 
 ## Technical Reports
 
