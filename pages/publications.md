@@ -11,8 +11,8 @@ permalink: /publications/
 	Surveys (CSUR)*, 2021
 
 * Oliver Michel, John Sonchack, Greg Cusack, Maziyar Nazari, Eric Keller, Jonathan M. Smith.
-	"**Software Packet-Level Network Analytics at Cloud Scale**". To appear in *IEEE Transactions
-	on Network and Service Management (TNSM)*, 2021
+	"**Software Packet-Level Network Analytics at Cloud Scale**". In *IEEE Transactions
+	on Network and Service Management (TNSM)*, vol. 18, no. 1, 2021 [ieee xplore](https://ieeexplore.ieee.org/document/9352981)
 
 ## Conference or Workshop Proceedings
 
