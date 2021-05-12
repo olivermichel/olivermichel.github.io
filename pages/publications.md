@@ -6,9 +6,7 @@ permalink: /publications/
 
 ## Journal Articles
 
-* Oliver Michel, Gabor Retvari, Roberto Bifulco, Stefan Schmid. "**The Programmable Data Plane:
-	Abstractions, Architectures, Algorithms, and Applications**". To appear in *ACM Computing
-	Surveys (CSUR)*, 2021
+* Oliver Michel, Gabor Retvari, Roberto Bifulco, Stefan Schmid. "**The Programmable Data Plane: Abstractions, Architectures, Algorithms, and Applications**". In *ACM Computing Surveys (CSUR)*, vol. 54, no. 4, 2021 [acm dl](https://dl.acm.org/doi/10.1145/3447868)
 
 * Oliver Michel, John Sonchack, Greg Cusack, Maziyar Nazari, Eric Keller, Jonathan M. Smith.
 	"**Software Packet-Level Network Analytics at Cloud Scale**". In *IEEE Transactions
