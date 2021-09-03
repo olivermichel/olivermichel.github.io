@@ -22,17 +22,19 @@ A full, less condensed version of this can be downloaded by clicking [here](../d
 * *Abitur*, Stifisches Gymnasium, Düren, Germany, 1999 - 2008
 
 ## Research Experience
-
-* Postdoctoral Researcher, Communication Technologies Research Group, Faculty
-	of Computer Science at the University of Vienna, Austria, since 2020
-* Research Assistant, Next Generation Networks Research Group, Department
-	of Computer Science at the University of Colorado Boulder,
-	Boulder, CO, USA, 2013 - 2019
-* Undergraduate Research Assistant, Future Communication Research Group, Faculty
-	of Computer Science at the University of Vienna, Austria, 2010 - 2013 (part time)
+* Postdoctoral Research Associate, Princeton University, Department of Computer Science, Princeton, NJ, USA, since 2021
+* Postdoctoral Researcher, University of Vienna, Faculty
+	of Computer Science, Austria, 2020-2021
+* Research Assistant, University of Colorado Boulder, Department
+	of Computer Science, Boulder, CO, USA, 2013 - 2019
+* Undergraduate Research Assistant, University of Vienna, Faculty
+	of Computer Science, Austria, 2010 - 2013 (part time)
 
 ## Teaching Experience
 
+* Lecturer, Network Security, University of Vienna, Austria, 2021
+* Lecturer, Operating Systems, University of Vienna, Austria, 2021
+* Lecturer, Network Technologies, University of Vienna, Austria, 2020
 * Guest Lecturer, Advanced Networking, Professor Eric Keller,
 	University of Colorado at Boulder, CO, USA, 2015 - 2018
 * Teaching Assistant, CSCI2400 Computer Systems, Professor Richard Han,
