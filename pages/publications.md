@@ -4,16 +4,20 @@ layout: page
 permalink: /publications/
 ---
 
-## Journal Articles
 
-* Oliver Michel, Gabor Retvari, Roberto Bifulco, Stefan Schmid. "**The Programmable Data Plane: Abstractions, Architectures, Algorithms, and Applications**". In *ACM Computing Surveys (CSUR)*, vol. 54, no. 4, 2021 [acm dl](https://dl.acm.org/doi/10.1145/3447868)
-
+* Marcelo Abranches, Oliver Michel, Eric Keller, Stefan Schmid. "**Efficient Network Monitoring
+	Applications in the Kernel with eBPF and XDP**". In *Proceedings of the 2021 IEEE Conference on
+	Network Function Virtualization and Software Defined Networks (NFV-SDN)*, Heraklion, Greece,
+	2021
+	[full paper](../doc/netmon-ebpf-xdp-nfvsdn21.pdf)
+* Oliver Michel, Gabor Retvari, Roberto Bifulco, Stefan Schmid. "**The Programmable Data Plane:
+	Abstractions, Architectures, Algorithms, and Applications**". In *ACM Computing Surveys (CSUR)*,
+	vol. 54, no. 4, 2021
+	[acm dl](https://dl.acm.org/doi/10.1145/3447868)
 * Oliver Michel, John Sonchack, Greg Cusack, Maziyar Nazari, Eric Keller, Jonathan M. Smith.
 	"**Software Packet-Level Network Analytics at Cloud Scale**". In *IEEE Transactions
-	on Network and Service Management (TNSM)*, vol. 18, no. 1, 2021 [ieee xplore](https://ieeexplore.ieee.org/document/9352981)
-
-## Conference or Workshop Proceedings
-
+	on Network and Service Management (TNSM)*, vol. 18, no. 1, 2021
+	[ieee xplore](https://ieeexplore.ieee.org/document/9352981)
 * Oliver Michel, Eric Keller, Fernando M.V. Ramos. "**Network Defragmentation in Virtualized Data
 	Centers**". In *Proceedings of the 6th IEEE International Conference on Software Defined
 	Systems* (SDS-2019)*, Rome, Italy, 2019
