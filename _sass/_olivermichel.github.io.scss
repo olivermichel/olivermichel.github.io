@@ -66,7 +66,7 @@ body {
 
 	h2 {
 		color: $h2-color;
-		margin-bottom: 2px;
+		margin-bottom: 5px;
 		@include breakpoint(small) { font-size: 11pt; }
 		@include breakpoint(medium) { font-size: 12pt; }
 	}
@@ -272,8 +272,8 @@ body {
 		float: right;
 		background: #f3f3f3;
 		border: 1px solid #999;
-		margin: 0px 0px 15px 15px;
-		padding: 4px;
+		margin: 0px 0px 12px 12px;
+		padding: 3px;
 	}
 
 	article.post {

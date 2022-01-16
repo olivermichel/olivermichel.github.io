@@ -4,7 +4,7 @@ layout: page
 permalink: /resume/
 ---
 
-A full, less condensed version of this can be downloaded by clicking [here](../doc/omichel-cv.pdf).
+<!-- A full, less condensed version of this can be downloaded by clicking [here](../doc/omichel-cv.pdf). -->
 
 ## Education
 
