@@ -6,14 +6,17 @@ permalink: /publications/
 
 ## Conference, Workshop, and Journal Publications
 
-
+* Oliver Michel, Satadal Sengupta, Hyojoon Kim, Ravi Netravali, Jennifer Rexford. "**Enabling
+	Passive Measurement of Zoom Performance in Production Networks**". To appear in *Proceedings of
+	the 2022 ACM Internet Measurement Conference (IMC '22)*, Nice, France, 2022
 * Vamsi Addanki, Oliver Michel, Stefan Schmid. "**PowerTCP: Pushing the Performance Limits of
-	Datacenter Networks**". To appear in *Proceedings of the 19th USENIX Symposium on Networked
-	Systems Design and Implementation (NSDI)*, Renton, WA, USA, 2022
-	[arxiv preprint](https://arxiv.org/abs/2112.14309)
+	Datacenter Networks**". In *Proceedings of the 19th USENIX Symposium on Networked
+	Systems Design and Implementation (NSDI '22)*, Renton, WA, USA, 2022
+	[full paper](../doc/powertcp-nsdi22.pdf)
+	[usenix](https://www.usenix.org/conference/nsdi22/presentation/addanki)
 * Marcelo Abranches, Oliver Michel, Eric Keller, Stefan Schmid. "**Efficient Network Monitoring
 	Applications in the Kernel with eBPF and XDP**". In *Proceedings of the 2021 IEEE Conference on
-	Network Function Virtualization and Software Defined Networks (NFV-SDN)*, Heraklion, Greece,
+	Network Function Virtualization and Software Defined Networks (NFV-SDN '22)*, Heraklion, Greece,
 	2021 -- **won best paper**
 	[full paper](../doc/netmon-ebpf-xdp-nfvsdn21.pdf)
 	[ieee xplore](https://ieeexplore.ieee.org/document/9665095)
@@ -34,7 +37,7 @@ permalink: /publications/
 	[ieee xplore](https://ieeexplore.ieee.org/abstract/document/8768700)
 * Oliver Michel, John Sonchack, Eric Keller, Jonathan M. Smith. "**PIQ: Persistent Interactive
 	Queries for Network Analytics**". In *Proceedings of the ACM International Workshop on Security
-	in Software Defined Networks & Network Function Virtualization (SDN-NFV Sec 2019)*, Dallas, TX,
+	in Software Defined Networks & Network Function Virtualization (SDN-NFV Sec. 2019)*, Dallas, TX,
 	USA, 2019
 	[full paper](../doc/piq-sdnnfvsec19.pdf)
 	[slides](../doc/piq-sdnnfvsec19-slides.pdf)
