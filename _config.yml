@@ -29,5 +29,4 @@ sass:
   style: compressed
   load_paths:
     - _sass
-    - vendor/foundation-sites/scss
-    - vendor/font-awesome/scss
+    - node_modules/foundation-sites/scss

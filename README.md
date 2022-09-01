@@ -2,7 +2,12 @@
 
 My academic/personal website.
 
-## Build/Run page locally
+## Install dependencies
+
+    bundle install
+    npm install
+
+## Build/run page locally
 
 Serve page via local webserver:
 
