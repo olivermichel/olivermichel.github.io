@@ -3,11 +3,13 @@ layout: page
 permalink: /research/
 ---
 
-# Current Projects
+## Current Projects
 
-## Packet-Level Analytics in Software without Compromises
+**Monitoring and Improving Video-conferencing Sessions in the Data Plane** --- Video-conferencing applications, such as Google Meet, Microsoft Teams, and Zoom, have gained popularity over the past several years. These applications are sensitive to network delay and data-intensive as they use high-quality webcam and audio streams. As a result, small changes in the underlying network conditions can have a significant impact on the user-perceived quality of an online meeting. Reduced network bandwidth results in poor audio or video quality or even frozen pictures; increased network delay results in lag which can make conversations difficult. In this project, we aim to understand how the network impacts the quality and performance of video-conferencing sessions in the wild and how modern programmable network devices can be leveraged to improve the quality of experience (QoE) of such applications. We are particularly interested in developing techniques to monitor the quality of video conferences as they take place, answer why a performance anomaly is occurring, and, subsequently, reconfigure the network or apply custom packet processing logic that improves meeting quality in real time.
 
-Traditionally, network monitoring
+## Previous Projects
+
+**Next-Generation Network Telemetry and Analytics** --- Traditionally, network monitoring
 and analytics systems rely on aggregation (*e.g.,* flow records) or sampling to cope with high
 packet rates. This has the downside that, in doing so, we lose data granularity and accuracy, and in
 general limit the possible network analytics we can perform. Recent proposals leveraging
@@ -21,8 +23,6 @@ specialization of stream processing systems. As a result, an evaluation with our
 implementation shows that we can scale up to several million packets per second per core and
 together with load balancing and further optimizations, the vision of cloud-scale per-packet network
 analytics is possible.
-
-## Previous Projects
 
 **Defragmenting the Cloud** ---	Network virtualization is an extensively used approach to allow
 multiple tenants with different network architectures and services to coexist on a shared data
