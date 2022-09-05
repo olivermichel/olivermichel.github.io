@@ -6,6 +6,10 @@ permalink: /publications/
 
 ## Conference, Workshop, and Journal Publications
 
+
+* Marcelo Abranches, Oliver Michel, Eric Keller. "**Getting back what was lost in the era of
+	high-speed software packet processing**". To appear in *Proceedings of the 21st ACM Workshop
+	on Hot Topics in Networks* (HotNets '22), Austin, TX, USA, 2022
 * Oliver Michel, Satadal Sengupta, Hyojoon Kim, Ravi Netravali, Jennifer Rexford. "**Enabling
 	Passive Measurement of Zoom Performance in Production Networks**". To appear in *Proceedings of
 	the 2022 ACM Internet Measurement Conference (IMC '22)*, Nice, France, 2022
