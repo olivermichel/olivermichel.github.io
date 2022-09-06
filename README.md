@@ -5,7 +5,6 @@ My academic/personal website.
 ## Install dependencies
 
     bundle install
-    npm install
 
 ## Build/run page locally
 
