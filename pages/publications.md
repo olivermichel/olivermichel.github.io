@@ -11,8 +11,10 @@ permalink: /publications/
 	high-speed software packet processing**". To appear in *Proceedings of the 21st ACM Workshop
 	on Hot Topics in Networks* (HotNets '22), Austin, TX, USA, 2022
 * Oliver Michel, Satadal Sengupta, Hyojoon Kim, Ravi Netravali, Jennifer Rexford. "**Enabling
-	Passive Measurement of Zoom Performance in Production Networks**". To appear in *Proceedings of
+	Passive Measurement of Zoom Performance in Production Networks**". In *Proceedings of
 	the 2022 ACM Internet Measurement Conference (IMC '22)*, Nice, France, 2022
+	[full paper](../doc/zoom-imc22.pdf)
+	[acm dl](https://dl.acm.org/doi/10.1145/3517745.3561414)
 * Vamsi Addanki, Oliver Michel, Stefan Schmid. "**PowerTCP: Pushing the Performance Limits of
 	Datacenter Networks**". In *Proceedings of the 19th USENIX Symposium on Networked
 	Systems Design and Implementation (NSDI '22)*, Renton, WA, USA, 2022
