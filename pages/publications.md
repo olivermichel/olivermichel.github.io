@@ -15,6 +15,7 @@ permalink: /publications/
 	the 2022 ACM Internet Measurement Conference (IMC '22)*, Nice, France, 2022
 	[full paper](../doc/zoom-imc22.pdf)
 	[acm dl](https://dl.acm.org/doi/10.1145/3517745.3561414)
+	[talk video](../doc/zoom-imc22.m4v)
 * Vamsi Addanki, Oliver Michel, Stefan Schmid. "**PowerTCP: Pushing the Performance Limits of
 	Datacenter Networks**". In *Proceedings of the 19th USENIX Symposium on Networked
 	Systems Design and Implementation (NSDI '22)*, Renton, WA, USA, 2022
