@@ -1,6 +1,6 @@
 # olivermichel.github.io
 
-My academic/personal website.
+My academic/personal website
 
 ## Install dependencies
 
@@ -8,7 +8,7 @@ My academic/personal website.
 
 ## Build/run page locally
 
-Serve page via local webserver:
+Serve page via local web server:
 
     bundle exec jekyll serve
 
