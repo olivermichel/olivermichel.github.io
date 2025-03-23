@@ -6,9 +6,10 @@ permalink: /publications/
 
 ## Conference, Workshop, and Journal Publications
 
-* Fan Yi, Haoran Wan, Kyle Jamieson, Jennifer Rexford, Yaxiong Xie, Oliver Michel. "**Athena: Seeing
-	and Mitigating Wireless Impact on Video Conferencing and Beyond**". In *23st ACM Workshop
-	on Hot Topics in Networks* (HotNets '24), Irvine, CA, USA, 2024
+* Fan Yi, Haoran Wan, Kyle Jamieson, Jennifer Rexford, Yaxiong Xie, Oliver Michel.
+    "**Athena: Seeing and Mitigating Wireless Impact on Video Conferencing and Beyond.**"
+    In *23rd ACM Workshop on Hot Topics in Networks* (HotNets '24), Irvine, CA, USA, 2024
+	[full paper](../doc/athena-hotnets24.pdf) [acm dl](https://dl.acm.org/doi/10.1145/3696348.3696889)
 * Marcelo Abranches, Erika Hunhoff, Rohan Eswara, Oliver Michel, Eric Keller. "**LinuxFP:
 	Transparently Accelerating Linux Networking**". In *Proceedings of the 2024 IEEE Conference on
 	Distributed Computing Systems (ICDCS '24), Jersey City, NJ, USA, 2024 -- **won distinguished
