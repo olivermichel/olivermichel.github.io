@@ -11,7 +11,8 @@
 
 - title: "Athena: Seeing and Mitigating Wireless Impact on Video Conferencing and Beyond"
   authors: Fan Yi, Haoran Wan, Kyle Jamieson, Jennifer Rexford, Yaxiong Xie, Oliver Michel
-  venue: ACM Workshop on Hot Topics in Networks (HotNets '24)
+  venue: ACM Workshop on Hot Topics in Networks
+  venue_short: HotNets '24
   year: 2024
   month: 11
   type: workshop
@@ -23,7 +24,8 @@
 
 - title: "LinuxFP: Transparently Accelerating Linux Networking"
   authors: Marcelo Abranches, Erika Hunhoff, Rohan Eswara, Oliver Michel, Eric Keller
-  venue: IEEE Conference on Distributed Computing Systems (ICDCS '24)
+  venue: IEEE Conference on Distributed Computing Systems
+  venue_short: ICDCS '24
   year: 2024
   month: 7
   type: conference
@@ -34,7 +36,8 @@
 
 - title: "Getting back what was lost in the era of high-speed software packet processing"
   authors: Marcelo Abranches, Oliver Michel, Eric Keller
-  venue: ACM Workshop on Hot Topics in Networks (HotNets '22)
+  venue: ACM Workshop on Hot Topics in Networks
+  venue_short: HotNets '22
   year: 2022
   month: 11
   type: workshop
@@ -46,7 +49,8 @@
 
 - title: "Enabling Passive Measurement of Zoom Performance in Production Networks"
   authors: Oliver Michel, Satadal Sengupta, Hyojoon Kim, Ravi Netravali, Jennifer Rexford
-  venue: ACM Internet Measurement Conference (IMC '22)
+  venue: ACM Internet Measurement Conference
+  venue_short: IMC '22
   year: 2022
   month: 10
   type: conference
@@ -58,7 +62,8 @@
 
 - title: "PowerTCP: Pushing the Performance Limits of Datacenter Networks"
   authors: Vamsi Addanki, Oliver Michel, Stefan Schmid
-  venue: USENIX Symposium on Networked Systems Design and Implementation (NSDI '22)
+  venue: USENIX Symposium on Networked Systems Design and Implementation
+  venue_short: NSDI '22
   year: 2022
   month: 4
   type: conference
@@ -70,7 +75,8 @@
 
 - title: "Efficient Network Monitoring Applications in the Kernel with eBPF and XDP"
   authors: Marcelo Abranches, Oliver Michel, Eric Keller, Stefan Schmid
-  venue: IEEE Conference on NFV and SDN (NFV-SDN '21)
+  venue: IEEE Conference on NFV and SDN 
+  venue_short: NFV-SDN '21
   year: 2021
   month: 11
   type: conference
@@ -83,7 +89,8 @@
 
 - title: "The Programmable Data Plane: Abstractions, Architectures, Algorithms, and Applications"
   authors: Oliver Michel, Gabor Retvari, Roberto Bifulco, Stefan Schmid
-  venue: ACM Computing Surveys (CSUR)
+  venue: ACM Computing Surveys
+  venue_short: CSUR
   year: 2021
   month: 8
   type: journal
@@ -93,7 +100,8 @@
 
 - title: "Software Packet-Level Network Analytics at Cloud Scale"
   authors: Oliver Michel, John Sonchack, Greg Cusack, Maziyar Nazari, Eric Keller, Jonathan M. Smith
-  venue: IEEE Transactions on Network and Service Management (TNSM)
+  venue: IEEE Transactions on Network and Service Management
+  venue_short: TNSM
   year: 2021
   month: 3
   type: journal
@@ -105,7 +113,8 @@
 
 - title: "Network Defragmentation in Virtualized Data Centers"
   authors: Oliver Michel, Eric Keller, Fernando M.V. Ramos
-  venue: 6th IEEE Conference on Software Defined Systems (SDS-2019)
+  venue: 6th IEEE Conference on Software Defined Systems
+  venue_short: SDS '19
   year: 2019
   month: 4
   type: conference
@@ -117,7 +126,8 @@
 
 - title: "PIQ: Persistent Interactive Queries for Network Analytics"
   authors: Oliver Michel, John Sonchack, Eric Keller, Jonathan M. Smith
-  venue: ACM Workshop on Security in SDN & NFV (SDN-NFV Sec. 2019)
+  venue: ACM Workshop on Security in SDN & NFV
+  venue_short: SDN-NFV Sec. '19
   year: 2019
   month: 3
   type: workshop
@@ -129,7 +139,8 @@
 
 - title: "Packet-Level Analytics in Software without Compromises"
   authors: Oliver Michel, John Sonchack, Eric Keller, Jonathan M. Smith
-  venue: USENIX Workshop on Hot Topics in Cloud Computing (HotCloud '18)
+  venue: USENIX Workshop on Hot Topics in Cloud Computing
+  venue_short: HotCloud '18
   year: 2018
   month: 7
   type: workshop
@@ -141,7 +152,8 @@
 
 - title: "Scaling Hardware Accelerated Monitoring to Concurrent and Dynamic Queries With *Flow"
   authors: John Sonchack, Oliver Michel, Adam J. Aviv, Eric Keller, Jonathan M. Smith
-  venue: USENIX Annual Technical Conference (ATC '18)
+  venue: USENIX Annual Technical Conference
+  venue_short: ATC '18
   year: 2018
   month: 7
   type: conference
@@ -153,7 +165,8 @@
 
 - title: "Machine Learning-Based Detection of Ransomware using SDN"
   authors: Greg Cusack, Oliver Michel, Eric Keller
-  venue: ACM Workshop on Security in SDN & NFV (SDN-NFV Sec. 2018)
+  venue: ACM Workshop on Security in SDN & NFV
+  venue_short: SDN-NFV Sec. '18
   year: 2018
   month: 3
   type: workshop
@@ -165,7 +178,8 @@
 
 - title: "SDN in Wide-Area Networks: A Survey"
   authors: Oliver Michel, Eric Keller
-  venue: IEEE Conference on Software Defined Systems (SDS-2017)
+  venue: IEEE Conference on Software Defined Systems
+  venue_short: SDS '17
   year: 2017
   month: 4
   type: conference
@@ -177,7 +191,8 @@
 
 - title: "Policy Routing using Process-Level Identifiers"
   authors: Oliver Michel, Eric Keller
-  venue: IEEE Conference on Software Defined Systems (SDS-2016)
+  venue_short: SDS '16
+  venue: IEEE Conference on Software Defined Systems
   year: 2016
   month: 5
   type: conference
@@ -189,7 +204,8 @@
 
 - title: "Applying Operating System Principles to SDN Controller Design"
   authors: Matthew Monaco, Oliver Michel, Eric Keller
-  venue: ACM Workshop on Hot Topics in Networks (HotNets-XII)
+  venue_short: HotNets '13
+  venue: ACM Workshop on Hot Topics in Networks
   year: 2013
   month: 11
   type: workshop
@@ -201,7 +217,8 @@
 
 - title: "More is Less: Reducing Latency via Redundancy"
   authors: Ashish Vulimiri, Oliver Michel, P. Brighten Godfrey, Scott Shenker
-  venue: ACM Workshop on Hot Topics in Networks (HotNets-XI)
+  venue_short: HotNets '12
+  venue: ACM Workshop on Hot Topics in Networks
   year: 2012
   month: 11
   type: workshop

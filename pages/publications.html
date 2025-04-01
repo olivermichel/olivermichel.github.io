@@ -1,6 +1,7 @@
 ---
 title: Publications
 layout: page
+permalink: /publications/
 ---
 
 <h2>Preprints</h2>
@@ -31,7 +32,8 @@ layout: page
         <li class="publication">
             <span class="title">{{p.title}}</span>
             <span class="authors">{{p.authors}}</span>
-            <span class="meta">{{p.venue}}, {{p.year}}</span>
+            <span class="venue">{{p.venue_short}}</span>
+            <span class="meta">({{p.venue}}, {{p.year}})</span>
             <span class="links">
                 {% for l in p.links %}
                     <a href="{{l.url}}">{{l.name}}</a>

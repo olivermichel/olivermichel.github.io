@@ -55,25 +55,28 @@ $breakpoints: (
 
 body {
 
-	background: #f6f8f8;
-	// background: linear-gradient(160deg, rgba(237,240,240,1) 0%, rgba(239,240,240,1) 100%);
-	background: linear-gradient(160deg, #f1f3f3 0%, #f6f8f8 100%);
-	// background: linear-gradient(160deg, #f6f8f8 0%, #f8fafa 100%);
+
+	// font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+	background: #ECE9E6;
+	background: linear-gradient(to right, #ECE9E6,#FFFFFF);
+
 	h1, h2 {
-		font-weight: 500;
+		font-family: "Helvetica Neue Medium", Helvetica, Arial, sans-serif;
 	}
 
 	h1 {
 		color: $h1-color;
-		@include breakpoint(small) { font-size: 12pt; }
-		@include breakpoint(medium) { font-size: 13pt; }
+		@include breakpoint(small) { font-size: 13pt; }
+		@include breakpoint(medium) { font-size: 15pt; }
 	}
 
 	h2 {
 		color: $h2-color;
-		margin-bottom: 5px;
-		@include breakpoint(small) { font-size: 11pt; }
-		@include breakpoint(medium) { font-size: 12pt; }
+		border-bottom: 1px solid #ddd;
+		margin-bottom: 10px;
+		@include breakpoint(small) { font-size: 12pt; }
+		@include breakpoint(medium) { font-size: 13pt; }
 	}
 
 	ul {
@@ -93,7 +96,7 @@ body {
 			@include breakpoint(medium) {
 				line-height:   1.25;
 				font-size:     10.5pt;
-				margin-bottom: 10px;
+				margin-bottom: 15px;
 			}
 
 			a {
@@ -116,17 +119,34 @@ body {
 
 		.title {
 			color: #000;
-			font-size: 11pt;
-			font-weight: 500;
+			font-size: 12pt;
+			font-family: "Helvetica Neue Medium", Helvetica, Arial, sans-serif;
 			display: block;
 		}
 
-		.authors, .meta, .links {
+		.venue {
+			color: #000;
+			font-family: "Helvetica Neue Medium", Helvetica, Arial, sans-serif;
+			font-size: 11pt;
+		}
+
+		.meta {
+			color: #222;
+			font-size: 10pt;
+		}
+
+		.authors {
+			color: #222;
+			font-size: 10pt;
+			display: block;
+		}
+	
+		.authors, .links {
 			color: #222;
 			font-size: 11pt;
 			display: block;
 		}
-	
+
 		// margin-top: 10px;
 		// margin-bottom: 20px;
 
@@ -136,7 +156,7 @@ body {
 
 	a {
 		color: #003366;
-
+		
 		&:hover {
 			color: #003366;
 			text-decoration: underline;
@@ -153,8 +173,9 @@ body {
 
 		color: $title-color;
 		letter-spacing: 1px;
-		padding: 20px 4px 0px 4px;
+		padding: 20px 2px 0px 2px;
 		text-transform: uppercase;
+		// font-family: "Helvetica Neue Medium", Helvetica, Arial, sans-serif;
 
 		@include breakpoint(small) { font-size: 14pt; }
 		@include breakpoint(medium) { font-size: 18pt; }
@@ -165,10 +186,11 @@ body {
 		@include row;
 
 		border-bottom: 1px solid #ccc;
-		padding: 0px 4px 8px 4px;
+		padding: 0px 2px 8px 2px;
 
 		a {
-			color: #777;
+			color: #666;
+			font-family: "Helvetica Neue Medium", Helvetica, Arial, sans-serif;
 
 			&:hover, &.active {
 				color: $link-color-hover;
@@ -191,7 +213,7 @@ body {
 
 		@include row;
 
-		padding: 18px 4px;
+		padding: 18px 2px;
 
 		a.doc {
 			font-weight: 500;
@@ -294,7 +316,7 @@ body {
 		position: absolute;
 		top: 0px;
 		width: 100%;
-		height: 4px;
+		height: 5px;
 		background: #003366;
 	}
 
@@ -308,6 +330,10 @@ body {
 		color: #444;
 		font-size: 10pt;
 		margin-bottom: 15px;
+
+		.affiliation {
+			font-family: "Helvetica Neue Medium", Helvetica, Arial, sans-serif;
+		}
 	}
 
 	.portrait {
