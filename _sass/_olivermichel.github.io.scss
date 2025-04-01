@@ -112,6 +112,28 @@ body {
 		}
 	}
 
+	.publication {
+
+		.title {
+			color: #000;
+			font-size: 11pt;
+			font-weight: 500;
+			display: block;
+		}
+
+		.authors, .meta, .links {
+			color: #222;
+			font-size: 11pt;
+			display: block;
+		}
+	
+		// margin-top: 10px;
+		// margin-bottom: 20px;
+
+	}
+
+
+
 	a {
 		color: #003366;
 

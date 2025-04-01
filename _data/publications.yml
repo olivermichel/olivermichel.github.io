@@ -1,0 +1,309 @@
+
+- title: Scalable Video Conferencing Using SDN Principles
+  authors: Oliver Michel, Satadal Sengupta, Hyojoon Kim, Ravi Netravali, Jennifer Rexford
+  venue: Preprint
+  year: 2025
+  type: preprint
+  links:
+    - name: arxiv
+      url: https://arxiv.org/abs/2503.11649
+
+
+- title: "Athena: Seeing and Mitigating Wireless Impact on Video Conferencing and Beyond"
+  authors: Fan Yi, Haoran Wan, Kyle Jamieson, Jennifer Rexford, Yaxiong Xie, Oliver Michel
+  venue: ACM Workshop on Hot Topics in Networks (HotNets '24)
+  year: 2024
+  month: 11
+  type: workshop
+  links:
+    - name: acm dl
+      url: https://dl.acm.org/doi/10.1145/3696348.3696889
+    - name: full paper
+      url: ../doc/athena-hotnets24.pdf
+
+- title: "LinuxFP: Transparently Accelerating Linux Networking"
+  authors: Marcelo Abranches, Erika Hunhoff, Rohan Eswara, Oliver Michel, Eric Keller
+  venue: IEEE Conference on Distributed Computing Systems (ICDCS '24)
+  year: 2024
+  month: 7
+  type: conference
+  award: Distinguished Paper Award
+  links:
+    - name: ieee xplore
+      url: https://ieeexplore.ieee.org/document/10630901
+
+- title: "Getting back what was lost in the era of high-speed software packet processing"
+  authors: Marcelo Abranches, Oliver Michel, Eric Keller
+  venue: ACM Workshop on Hot Topics in Networks (HotNets '22)
+  year: 2022
+  month: 11
+  type: workshop
+  links:
+    - name: acm dl
+      url: https://dl.acm.org/doi/10.1145/3563766.3564114
+    - name: full paper
+      url: ../doc/tna-hotnets22.pdf
+
+- title: "Enabling Passive Measurement of Zoom Performance in Production Networks"
+  authors: Oliver Michel, Satadal Sengupta, Hyojoon Kim, Ravi Netravali, Jennifer Rexford
+  venue: ACM Internet Measurement Conference (IMC '22)
+  year: 2022
+  month: 10
+  type: conference
+  links:
+    - name: acm dl
+      url: https://dl.acm.org/doi/10.1145/3517745.3561414
+    - name: full paper
+      url: ../doc/zoom-imc22.pdf
+
+- title: "PowerTCP: Pushing the Performance Limits of Datacenter Networks"
+  authors: Vamsi Addanki, Oliver Michel, Stefan Schmid
+  venue: USENIX Symposium on Networked Systems Design and Implementation (NSDI '22)
+  year: 2022
+  month: 4
+  type: conference
+  links:
+    - name: usenix
+      url: https://www.usenix.org/conference/nsdi22/presentation/addanki
+    - name: full paper
+      url: ../doc/powertcp-nsdi22.pdf
+
+- title: "Efficient Network Monitoring Applications in the Kernel with eBPF and XDP"
+  authors: Marcelo Abranches, Oliver Michel, Eric Keller, Stefan Schmid
+  venue: IEEE Conference on NFV and SDN (NFV-SDN '21)
+  year: 2021
+  month: 11
+  type: conference
+  award: Best Paper Award
+  links:
+    - name: ieee xplore
+      url: https://ieeexplore.ieee.org/document/9665095
+    - name: full paper
+      url: ../doc/netmon-ebpf-xdp-nfvsdn21.pdf
+
+- title: "The Programmable Data Plane: Abstractions, Architectures, Algorithms, and Applications"
+  authors: Oliver Michel, Gabor Retvari, Roberto Bifulco, Stefan Schmid
+  venue: ACM Computing Surveys (CSUR)
+  year: 2021
+  month: 8
+  type: journal
+  links:
+    - name: acm dl
+      url: https://dl.acm.org/doi/10.1145/3447868
+
+- title: "Software Packet-Level Network Analytics at Cloud Scale"
+  authors: Oliver Michel, John Sonchack, Greg Cusack, Maziyar Nazari, Eric Keller, Jonathan M. Smith
+  venue: IEEE Transactions on Network and Service Management (TNSM)
+  year: 2021
+  month: 3
+  type: journal
+  links:
+    - name: ieee xplore
+      url: https://ieeexplore.ieee.org/abstract/document/9352981
+    - name: full paper
+      url: ../doc/jetstream-tnsm21.pdf
+
+- title: "Network Defragmentation in Virtualized Data Centers"
+  authors: Oliver Michel, Eric Keller, Fernando M.V. Ramos
+  venue: 6th IEEE Conference on Software Defined Systems (SDS-2019)
+  year: 2019
+  month: 4
+  type: conference
+  links:
+    - name: ieee xplore
+      url: https://ieeexplore.ieee.org/abstract/document/8768700
+    - name: full paper
+      url: ../doc/dcdefrag-sds19.pdf
+
+- title: "PIQ: Persistent Interactive Queries for Network Analytics"
+  authors: Oliver Michel, John Sonchack, Eric Keller, Jonathan M. Smith
+  venue: ACM Workshop on Security in SDN & NFV (SDN-NFV Sec. 2019)
+  year: 2019
+  month: 3
+  type: workshop
+  links:
+    - name: acm dl
+      url: https://dl.acm.org/doi/10.1145/3309194.3309197
+    - name: full paper
+      url: ../doc/piq-sdnfvsec19.pdf
+
+- title: "Packet-Level Analytics in Software without Compromises"
+  authors: Oliver Michel, John Sonchack, Eric Keller, Jonathan M. Smith
+  venue: USENIX Workshop on Hot Topics in Cloud Computing (HotCloud '18)
+  year: 2018
+  month: 7
+  type: workshop
+  links:
+    - name: usenix
+      url: https://www.usenix.org/conference/hotcloud18/presentation/michel
+    - name: full paper
+      url: ../doc/jetstream-hotcloud18.pdf
+
+- title: "Scaling Hardware Accelerated Monitoring to Concurrent and Dynamic Queries With *Flow"
+  authors: John Sonchack, Oliver Michel, Adam J. Aviv, Eric Keller, Jonathan M. Smith
+  venue: USENIX Annual Technical Conference (ATC '18)
+  year: 2018
+  month: 7
+  type: conference
+  links:
+    - name: usenix
+      url: https://www.usenix.org/conference/atc18/presentation/sonchack
+    - name: full paper
+      url: ../doc/starflow-atc18.pdf
+
+- title: "Machine Learning-Based Detection of Ransomware using SDN"
+  authors: Greg Cusack, Oliver Michel, Eric Keller
+  venue: ACM Workshop on Security in SDN & NFV (SDN-NFV Sec. 2018)
+  year: 2018
+  month: 3
+  type: workshop
+  links:
+    - name: acm dl
+      url: https://dl.acm.org/doi/10.1145/3180465.3180467
+    - name: full paper
+      url: ../doc/ml-ransomware-sdnnfvsec18.pdf
+
+- title: "SDN in Wide-Area Networks: A Survey"
+  authors: Oliver Michel, Eric Keller
+  venue: IEEE Conference on Software Defined Systems (SDS-2017)
+  year: 2017
+  month: 4
+  type: conference
+  links:
+    - name: ieee xplore
+      url: http://ieeexplore.ieee.org/document/7939138
+    - name: full paper
+      url: ../doc/sdwan-sds17.pdf
+
+- title: "Policy Routing using Process-Level Identifiers"
+  authors: Oliver Michel, Eric Keller
+  venue: IEEE Conference on Software Defined Systems (SDS-2016)
+  year: 2016
+  month: 5
+  type: conference
+  links:
+    - name: ieee xplore
+      url: http://ieeexplore.ieee.org/document/7527807
+    - name: full paper
+      url: ../doc/prpl-sds16.pdf
+
+- title: "Applying Operating System Principles to SDN Controller Design"
+  authors: Matthew Monaco, Oliver Michel, Eric Keller
+  venue: ACM Workshop on Hot Topics in Networks (HotNets-XII)
+  year: 2013
+  month: 11
+  type: workshop
+  links:
+    - name: acm dl
+      url: https://dl.acm.org/doi/10.1145/2535771.2535789
+    - name: full paper
+      url: ../doc/yanc-hotnets.pdf
+
+- title: "More is Less: Reducing Latency via Redundancy"
+  authors: Ashish Vulimiri, Oliver Michel, P. Brighten Godfrey, Scott Shenker
+  venue: ACM Workshop on Hot Topics in Networks (HotNets-XI)
+  year: 2012
+  month: 11
+  type: workshop
+  links:
+    - name: acm dl
+      url: https://dl.acm.org/doi/10.1145/2390231.2390234
+    - name: full paper
+      url: ../doc/hotnets12.pdf
+
+- title: Understanding the Impact of Cellular RAN-induced Delay on Video Conferencing
+  authors: Fan Yi, Oliver Michel, Haoran Wan, Kyle Jamieson
+  venue: ACM Conference On Mobile Computing And Networking (Mobicom)
+  year: 2024
+  type: poster
+
+- title: Passive Measurement of Real-Time Video Applications
+  authors: Oliver Michel, Satadal Sengupta, Hyojoon Kim, Ravi Netravali, Jennifer Rexford
+  venue: Project Pronto Demo Day
+  year: 2023
+  type: poster
+
+- title: Scalable, Hardware-Accelerated Network Analytics
+  authors: Oliver Michel, John Sonchack, Adam J. Aviv, Eric Keller
+  venue: 15th USENIX Symposium on Networked Systems Design and Implementation (NSDI '18)
+  year: 2018
+  type: poster
+  links:
+    - name: poster
+      url: ../doc/nsdi18-poster.pdf
+    - name: extended abstract
+      url: ../doc/nsdi18-abstract.pdf
+
+- title: Machine Learning-Based Fingerprinting of Network Traffic using Programmable Forwarding Engines
+  authors: Greg Cusack, Oliver Michel, Eric Keller
+  venue: NDSS Security Symposium 2018
+  year: 2018
+  type: poster
+  award: Best Poster Award
+  links:
+    - name: poster
+      url: ../doc/ndss18-poster.pdf
+
+- title: Defragmenting the Cloud
+  authors: Oliver Michel, Eric Keller
+  venue: 13th USENIX Symposium on Networked Systems Design and Implementation (NSDI '16)
+  year: 2016
+  type: poster
+  links:
+    - name: poster
+      url: ../doc/nsdi16-poster.pdf
+    - name: extended abstract
+      url: ../doc/nsdi16-abstract.pdf
+
+- title: Extending the Software-defined Network Boundary
+  authors: Oliver Michel, Michael Coughlin, Eric Keller
+  venue: ACM SIGCOMM 2014 Conference
+  year: 2014
+  type: poster
+  links:
+    - name: poster
+      url: ../doc/sigcomm14-poster.pdf
+    - name: extended abstract
+      url: ../doc/sigcomm14-abstract.pdf
+
+- title: Making the Live Network the Honeypot
+  authors: Michael Coughlin, Oliver Michel, Eric Keller, Adam J. Aviv
+  venue: 11th USENIX Symposium on Networked Systems Design and Implementation (NSDI '14)
+  year: 2014
+  type: poster
+  links:
+    - name: poster
+      url: ../doc/nsdi2014-poster.pdf
+    - name: extended abstract
+      url: ../doc/nsdi2014-proposal.pdf
+
+- title: Applying Operating System Principles to SDN Controller Design
+  authors: Oliver Michel, Matthew Monaco, Eric Keller
+  venue: 18th GENI Engineering Conference (GEC18)
+  year: 2013
+  type: poster
+  links:
+    - name: poster
+      url: ../doc/yanc-poster.pdf
+
+- title: Multihoming and Adaptive Multipath Transmission using off-the-shelf Components in Preclinical Medical Care
+  authors: Oliver Michel, David Stezenbach, Kurt Tutschku
+  venue: 10th USENIX Symposium on Networked Systems Design and Implementation (NSDI '13)
+  year: 2013
+  type: poster
+  links:
+    - name: poster
+      url: ../doc/nsdi13-poster.pdf
+    - name: extended abstract
+      url: ../doc/nsdi13-proposal.pdf
+
+- title: Adaptive Source Routing
+  authors: Oliver Michel, Ashish Vulimiri, P. Brighten Godfrey
+  venue: 13th GENI Engineering Conference (GEC13)
+  year: 2012
+  type: poster
+  links:
+    - name: poster
+      url: ../doc/gec13-poster.pdf
+
+

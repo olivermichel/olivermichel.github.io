@@ -1,0 +1,62 @@
+---
+title: Publications
+layout: page
+---
+
+<h2>Preprints</h2>
+
+<ul>
+{% for p in site.data.publications %}
+    {% if p.type == "preprint" %}
+        <li class="publication">
+            <span class="title">{{p.title}}</span>
+            <span class="authors">{{p.authors}}</span>
+            <span class="meta">{{p.venue}}, {{p.year}}</span>
+            <span class="links">
+                {% for l in p.links %}
+                    <a href="{{l.url}}">{{l.name}}</a>
+                {% endfor %}
+            </span>        
+        </li>
+    {% endif %}
+{% endfor %}
+</ul>
+
+
+<h2>Conference, Workshop, and Journal Publications</h2>
+
+<ul>
+{% for p in site.data.publications %}
+    {% if p.type == "conference" or p.type == "workshop" or p.type == "journal" %}
+        <li class="publication">
+            <span class="title">{{p.title}}</span>
+            <span class="authors">{{p.authors}}</span>
+            <span class="meta">{{p.venue}}, {{p.year}}</span>
+            <span class="links">
+                {% for l in p.links %}
+                    <a href="{{l.url}}">{{l.name}}</a>
+                {% endfor %}
+            </span>        
+        </li>
+    {% endif %}
+{% endfor %}
+</ul>
+
+<h2>Posters</h2>
+
+<ul>
+{% for p in site.data.publications %}
+    {% if p.type == "poster" %}
+        <li class="publication">
+            <span class="title">{{p.title}}</span>
+            <span class="authors">{{p.authors}}</span>
+            <span class="meta">{{p.venue}}, {{p.year}}</span>
+            <span class="links">
+                {% for l in p.links %}
+                    <a href="{{l.url}}">{{l.name}}</a>
+                {% endfor %}
+            </span>        
+        </li>
+    {% endif %}
+{% endfor %}
+</ul>
