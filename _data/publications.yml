@@ -1,4 +1,13 @@
 
+- title: Automated, Cross-Layer Root Cause Analysis of 5G Video-Conferencing Quality Degradation
+  authors: Fan Yi, Haoran Wan, Kyle Jamieson, Oliver Michel
+  venue: Preprint
+  year: 2025
+  type: preprint
+  links:
+    - name: arxiv
+      url: https://arxiv.org/abs/2505.14540
+
 - title: Scalable Video Conferencing Using SDN Principles
   authors: Oliver Michel, Satadal Sengupta, Hyojoon Kim, Ravi Netravali, Jennifer Rexford
   venue: Preprint
