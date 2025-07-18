@@ -10,13 +10,14 @@
 
 - title: Scalable Video Conferencing Using SDN Principles
   authors: Oliver Michel, Satadal Sengupta, Hyojoon Kim, Ravi Netravali, Jennifer Rexford
-  venue: Preprint
+  venue: Annual Conference of the ACM Special Interest Group on Data Communication
+  venue_short: SIGCOMM '25
   year: 2025
-  type: preprint
+  month: 9
+  type: conference
   links:
     - name: arxiv
       url: https://arxiv.org/abs/2503.11649
-
 
 - title: "Athena: Seeing and Mitigating Wireless Impact on Video Conferencing and Beyond"
   authors: Fan Yi, Haoran Wan, Kyle Jamieson, Jennifer Rexford, Yaxiong Xie, Oliver Michel
