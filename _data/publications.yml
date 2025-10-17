@@ -1,9 +1,10 @@
 
 - title: Automated, Cross-Layer Root Cause Analysis of 5G Video-Conferencing Quality Degradation
   authors: Fan Yi, Haoran Wan, Kyle Jamieson, Oliver Michel
-  venue: Preprint
+  venue: ACM Internet Measurement Conference
+  venue_short: IMC '25
   year: 2025
-  type: preprint
+  type: conference
   links:
     - name: arxiv
       url: https://arxiv.org/abs/2505.14540
