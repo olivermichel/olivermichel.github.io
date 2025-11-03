@@ -4,8 +4,15 @@ layout: page
 permalink: /publications/
 ---
 
-<h2>Preprints</h2>
+{% assign preprints_exist = false %}
+{% for item in site.data.publications %}
+  {% if item.type == "preprint" %}
+    {% assign preprints_exist = true %}
+  {% endif %}
+{% endfor %}
 
+{% if preprints_exist %}
+<h2>Preprints</h2>
 <ul>
 {% for p in site.data.publications %}
     {% if p.type == "preprint" %}
@@ -22,10 +29,8 @@ permalink: /publications/
     {% endif %}
 {% endfor %}
 </ul>
-
-
+{% endif %}
 <h2>Conference, Workshop, and Journal Publications</h2>
-
 <ul>
 {% for p in site.data.publications %}
     {% if p.type == "conference" or p.type == "workshop" or p.type == "journal" %}
