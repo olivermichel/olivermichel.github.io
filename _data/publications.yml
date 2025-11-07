@@ -6,6 +6,8 @@
   year: 2025
   type: conference
   links:
+    - name: full paper
+      url: ../doc/athena-imc25.pdf
     - name: arxiv
       url: https://arxiv.org/abs/2505.14540
 
